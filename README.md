@@ -1,21 +1,21 @@
-B4A can be downloaded here:
+B4A can be downloaded here:  
 https://www.b4x.com/b4a.html
 
-API keys needed: (I can't give you mine)
+API keys needed: (I can't give you mine)  
 
-Weather module (used for checking the weather)
+Weather module (used for checking the weather)  
 OpenWeatherMap: line 7
 
-Main module (used to read social media feeds of people involved with Star Trek):
+Main module (used to read social media feeds of people involved with Star Trek):  
 Google Plus: line 274 (no longer works)
 Facebook Client ID: line 275
 Facebook Client Secret: line 276
 Twitter Consumer Key and Secret: line 278
 
-Main module (used for the universal translator):
+Main module (used for the universal translator):  
 Bing: line 2966
 
-Directories:
+Directories:    
 Additional Libraries - All the B4A libraries I used, it'd be a real pain to make you download them yourself. Especially since some don't exist, and I made one specifically for the dialer.  
 Cardassian Vector Engine - The editor I made for my vector art format, used first in the Cardassian/DS9 animated bridge screens  
 LCARS DIALER  
@@ -23,7 +23,7 @@ LCARS for Windows - The original VB6 sourcecode/program
 LCARS UI - The one you're probably looking for  
 Misc tools used - For some screens, I made a program to handle creation of assets/data rapidly. You may need to manually add some modules as they expect them in a certain place on my hard drive. I included these for historical purposes
 
-History:
+History:  
 The original LCAR (yes, LCAR. I thought it was LCAR not LCARS back when I started) program I made for Windows using Visual Basic 6. I built a Windows file explorer in the LCARS theme because I wanted to use LCARS on my UMPC (Ultra Mobile PC) which is basically a smaller tablet PC with a touchscreen. A big feature it supported was rotation in software, because rotation in hardware did not work properly on my UMPC (it would rotate the screen, but not the touchscreen coordinates! So you couldn't touch things properly). And since it only used a few colors, all on a black background, I was able to make my own anti-aliasing code which blended the edges of shapes into the background, caching the color gradients for speed. If you click the dot/period button in the bottom left corner, you also get an editor for the circular LCARS from the movies. I sent this program to Michael Okuda's email via his old website, but never got a response. Not that it matters, since he's a Macintosh user and couldn't use it anyway. Something I enjoyed doing when I went to computer stores was load this program on their giant touchscreen monitors. This engine only supports LCARS elbows, buttons (which to the engine are really elbows with no angle to them), a special element (the animated grid when the keyboard is visible) and lists.
 
 Then I became an Android developer. And went to Fan Expo. I saw a bunch of people using the original Galaxy Tab, and a bunch of them had Star Trek programs on it. And all of them looked absolutely terrible. So I thought, I can do better than that! And a cellphone booth was there offering a free Galaxy Tab if I signed up for 2 years. So I signed up. Then I was curious how well Android could handle anti aliasing on it's own, so I made a test program (LCARTEST, which I never got around to changing) that used PNG stencils, to basically draw a black shape, over a colored square. The black would draw the curves of the LCAR buttons/elbows. And since PNGs had 8-bit transparency, I could build the anti-aliasing into the PNG by use of Photoshop. I then ported the code from VB6 (which is why the early code carried over my LCAR mistake...) to get the engine started. With one major change. The old engine only really supported 1 element type (buttons and elbows, I used a hardcoding trick to get the grid showing, and lists were something else entirely) so I added a variable to each element to define it's type. This is what let me expand to support almost a hundred element types. Michael Okuda somehow became aware of my initial app and posted it on his facebook page, and then I signed up to facebook to thank him. One user was upset that I had no zooming options. I thank him for that complaint because that was a VERY valid complaint, especially on Android where the screens went from 800x480 at 4" on my first cell phone (same as my 7" UMPC), to a whopping 1080p ~5" on my Nexus 5. And now there is 4K phones! Because of the race of screen resolutions, I had to make more stencils several times. 
