@@ -12,6 +12,9 @@ Facebook Client ID: line 275
 Facebook Client Secret: line 276
 Twitter Consumer Key and Secret: line 278
 
+Main module (used for the universal translator):
+Bing: line 2966
+
 Directories:
 Additional Libraries - All the B4A libraries I used, it'd be a real pain to make you download them yourself. Especially since some don't exist, and I made one specifically for the dialer.  
 Cardassian Vector Engine - The editor I made for my vector art format, used first in the Cardassian/DS9 animated bridge screens  
