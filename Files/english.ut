@@ -1,0 +1,2052 @@
+#any strings already uppercased, must be uppercased in the translation
+#text inside [these] will be replaced with:
+#if numeric: parameters passed into the getstring function
+#if not numeric: either a string from this file, or the settings file
+#if contains a tilde (~): non-numeric strings inside [these] will not be processed
+#"%N%" will be replaced with a newline
+#add "_sm" to the names to auto-load in small screen mode
+
+#Section names
+sec_-3=SETTINGS
+sec_-2=OMEGA DIRECTIVE
+sec_-1=MODE SELECT
+sec_0=INTRO 1
+sec_1=WIFI CHART
+sec_2=SCAN ANIMATION
+sec_3=SENSOR METERS
+sec_4=AUTO DESTRUCT TIMER
+sec_5=MEMORY ALPHA BROWSER
+sec_6=FORWARD NAVIGATION SCAN
+sec_7=ULTRA MOBILE REMOTE
+sec_8=TACTICAL
+sec_9=OKUDAGRAM GENERATOR
+sec_10=ALERT CONDITION
+sec_11=FEDERATION DATABASE
+sec_12=STARBASE CLOCK
+sec_13=ANALYSIS
+sec_14=WARP CORE STATUS
+sec_15=CAPTAINS LOG
+sec_16=ANGRY TRIBBLES
+sec_17=MEMORY ALLOCATION
+sec_18=FREQUENCY
+sec_19=SCIENCE STATION
+sec_19_afm=SPOCK-O-SCOPE
+sec_20=SONAR
+sec_21=PERIODIC TABLE OF ELEMENTS
+sec_22=PERSONAL LOG
+sec_23=LIVE WALLPAPER SETTINGS
+sec_24=CALCULATOR
+sec_25=NUMBER ONE CONSOLE
+sec_26=TRANSPORTER CONSOLE
+sec_27=SHUTTLE BAY CONSOLE
+sec_28=WARP CORE 2
+sec_29=ENVIRONMENTAL
+sec_30=STARFIELD
+sec_31=COMMUNICATOR
+sec_32=COMMUNICATOR SETTINGS
+sec_33=SCIENCE STATION 2
+sec_34=TARGETING COMPUTER
+sec_35=DAY DREAM/LOCK SCREEN
+sec_36=MSD DOWNLOADER
+sec_37=ALARMS
+sec_38=SECURITY
+sec_39=METAPHASIC SHIELDS
+sec_40=BATTLE OF THE MUTARA NEBULA
+sec_41=WIDGETS
+sec_42=KLINGON TRANSLATOR
+sec_43=CLOCK
+sec_44=CONN CONSOLE
+sec_45=CHRONOWERX OS
+sec_47=WEATHER SETTINGS
+sec_48=TRICORDER
+sec_49=BOARD GAMES
+sec_50=SOLAR SYSTEM
+sec_51=DEBUG MENU
+sec_52=PRISMATIK LIGHTPACK
+sec_53=SHATTER GLASS
+sec_54=VEHICLE STATUS [VOY]
+sec_55=WIRE FRAME
+sec_56=OPS CONSOLE
+sec_57=NUMBER TWO CONSOLE
+sec_58=ICON MODIFIER
+sec_59=ROMULAN CLOCK
+sec_60=KLINGON CLOCK
+sec_61=SINE WAVE
+sec_62=REMINDERS
+sec_63=DEEP SPACE 9
+sec_64=TOS BRIDGE
+sec_64_0=UNIVERSAL TRANSLATOR STATUS
+sec_64_1=SUBSPACE RELAY STATUS
+sec_64_2=RANDOM BUTTONS
+sec_64_3=SUBSPACE FREQ SCAN
+sec_64_4=RANDOM BUTTONS AND CIRCLES
+sec_64_5=RANDOM BUTTONS WITH TEXT
+sec_64_6=MISC BUTTONS
+sec_64_7=ARTIFICIAL 1
+sec_64_8=ARTIFICIAL 2
+sec_64_9=ARTIFICIAL 3
+sec_64_10=ARTIFICIAL 4
+sec_64_11=ARTIFICIAL 5
+sec_64_12=SHIPWIDE ENVIRONMENTAL STATUS
+sec_64_13=STAR DRIVE
+sec_64_14=CONTINGENCY POWER
+sec_64_15=GRAVITON FIELD DECAY
+sec_64_16=NET FIELD STABILITY
+sec_64_17=STATION KEEPING
+sec_65=UNIT CONVERSION
+sec_66=NX-01 BRIDGE
+sec_66_0=RND BUTTONS
+sec_66_1=BIG RADAR
+sec_66_2=BIG WAVEDAR
+sec_66_3=SMALL WAVEDAR
+sec_66_4=SMALL RND
+sec_66_5=HOSHI'S
+sec_66_6=BLOCK OF 6 RNDS
+sec_66_7=SMALL CIRCLE ENT
+sec_66_8=BLOCK OF 3 RNDS
+sec_66_9=SMALL RADAR
+sec_66_10=2 RNDS PLUS TOPVIEW
+sec_66_11=HOSHI'S 2
+sec_66_12=3 SQUIRCLES + RND
+sec_66_13=DNA
+sec_67=TACTICAL 2
+sec_67_0=NEMESIS
+sec_67_1=TOS
+sec_68=TRANSPORTER CONSOLE 2
+sec_69=CORRIDOR CONSOLE
+sec_70=Q NET
+sec_71=APK ADD ON INSTALLER
+sec_72=CARD GAMES
+sec_73=PHOTO WIDGET SETTINGS
+sec_74=TREK TROPES
+sec_75=SHELIAK CORPORATE
+sec_76=OPERATIONS CENTER
+sec_76_0=FIRST
+sec_76_1=SECOND
+sec_77=WARP FIELD
+sec_78=WHITE NOISE MAKER
+sec_78_afm=NARDI NOISE NNAKER
+sec_79=NFC ACTIONS
+sec_80=VEHICLE STATUS [ENT-E]
+sec_81=DNA ANALYSIS
+sec_81_0=VOY
+sec_81_1=EARLY TNG
+sec_81_2=NX-01
+sec_81_3=3D
+sec_81_4=LATE TNG
+sec_82=INTRO 2
+sec_83=FILE EXPLORER
+sec_84=PLASMA CONSTRICTION
+sec_85=DR. PULASKI
+sec_86=TCARS
+sec_87=BORG
+sec_88=FERENGI
+sec_89=TMP BRIDGE
+sec_89_0=STANDBY MODE
+sec_89_1=SUBSYSTEM STATUS
+sec_89_2=SHORT RANGE SCAN
+sec_89_3=SCAN ANIMATION
+sec_89_4=ANALYSIS
+sec_89_5=FUEL CONSUMPTION
+sec_89_6=ALERT CONDITION STATUS
+sec_89_7=SYSTEM STATUS
+sec_89_8=STRUCTURE ANALYSIS
+sec_89_9=SUBSPACE COMM
+sec_89_10=LATERAL SENSOR ARRAY
+sec_89_11=SUBSPACE ANALYSIS
+sec_89_12=VEHICLE STATUS
+sec_89_13=SECTOR SCAN
+sec_89_14=TACTICAL SCAN
+sec_89_15=TACTICAL SCAN II
+sec_89_16=WAVEFORM MONITOR
+sec_89_17=QUADRANT MAP
+sec_89_18=WARP PROP SYSTEM
+sec_90=BRIDGE/OPS SETTINGS
+sec_91=ENT-B HELM
+sec_92=SCIFI UI
+
+#Toasts
+toast_edu=EDUCATIONAL MODE
+toast_-3=Settings
+toast_-2=shows the degrees of separation between me and you
+toast_0=introduction animation
+toast_1=shows wifi hotspots within sensor range
+toast_2=A background animation seen in TNG
+toast_6=[toast_2]
+toast_13=[toast_2]
+toast_14=[toast_2]
+toast_29=[toast_2]
+toast_33=[toast_2]
+toast_3=shows data from your device's sensors
+toast_4=a simple count-down timer
+toast_5=a web browser set for [SearchProvider]
+toast_7=Control your pc or another device running this app
+toast_8=Allows you to leave GPS markers
+toast_9=Lets you make/view the first kind of Okudagrams
+toast_10=The alert status screen from the original movies
+toast_11=The matrix-clone seen in Nemesis'federation database
+toast_12=Based on the starbase status screen in Voyage Home
+toast_15=Shows the Google Plus changelog, as well as star trek-related twitter feeds
+toast_16=a simple shoot-the-falling-objects game
+toast_17=a puzzle game based on Panel de Pon and an animation seen in TNG
+toast_18=shows the waveform from the microphone
+toast_19=A background animation seen in TOS
+toast_20=A background animation seen in TMP
+toast_21=An animated period table of elements
+toast_22=Allows you to record personal audio messages
+toast_23=[toast_-3]
+toast_24=A text-based graphing calculator
+toast_25=The Second in command's console
+toast_26=The transporter console
+toast_27=Shuttle status screen
+toast_28=Warp core animation
+toast_30=a starfield animation
+toast_31=Handles text messaging and answering/placing calls
+toast_32=[toast_-3]
+toast_34=MAY THE FORCE BE WITH YOU
+toast_35=[toast_-3]
+toast_36=PREVIEW MSDS BEFORE DOWNLOADING THEM
+toast_37=SET UP YOUR ALARMS
+toast_38=SET YOUR PASSWORD AND OTHER SECURITY SETTINGS
+toast_39=SHOWS PICTURES FROM SOHO
+toast_40=A MINIGAME BASED ON TWOK
+toast_41=SET UP YOUR WIDGETS
+toast_42=GSF4:Hoch Dunmo' tlhIngan
+toast_43=A SIMPLE CLOCK
+toast_44=THE ENT-D CONN STATION
+toast_45=THE DATA COPIED FROM STARLING'S COMPUTER
+toast_47=WEATHER API SETTINGS
+toast_48=THE TRICORDER FROM ENDGAME
+toast_49=BOARD GAMES FROM TOS
+toast_50=MAP OF THE SOLAR SYSTEM
+toast_51=DEBUG SETTINGS
+toast_52=LIGHTPACK SETTINGS
+toast_53=CARDASSIAN/DS9
+toast_54=SHIELD STATUS
+toast_80=[toast_54]
+toast_55=3D MODEL TEST
+toast_56=OPS console
+toast_57=DR. CRUSHER'S CONSOLE
+toast_58=ICON MODIFIER
+toast_59=ROMULAN (BINARY) CLOCK
+toast_60=GSF4:DaH'Klingon clock
+toast_61=SINE WAVE
+toast_62=MANAGE THE REMINDERS WIDGET
+toast_63=DEEP SPACE 9 WIREFRAME
+toast_64=ORIGINAL SERIES DISPLAYS
+toast_65=UNIT CONVERSION
+toast_66=NX-01 ENTERPRISE DISPLAYS
+toast_67=STARSHIP TACTICAL DISPLAY
+toast_68=THE CONSOLE AT THE REAR OF THE TRANSPORTER ROOM
+toast_69=A CONSOLE SEEN IN THE CORRIDORS OF THE ENTERPRISE-D
+toast_71=Download APKs too small for the regular store
+toast_72=A COLLECTION OF CARD GAMES
+toast_73=Settings for the photo widget
+toast_74=A list of tropes used in Star Trek
+toast_75=THE TREATY OF ARMENS
+toast_76=DS9 DISPLAYS
+toast_77=WARP FIELD STATUS DISPLAY
+toast_78=WHITE NOISE MAKER
+toast_79=SET UP NFC ACTIONS
+toast_81=DNA SCANNER
+toast_82=NEW INTRO
+toast_83=BROWSE YOUR EXTERNAL STORAGE
+toast_84=A CONSOLE FROM VOYAGER'S BRIDGE
+toast_85=A FALLING-BLOCK PUZZLE GAME
+toast_86=TEMPORAL LCARS
+toast_87=BORG
+toast_88=FERENGI STOCK TICKER
+toast_89=VARIOUS SCREENS FROM THE ENTERPRISE A AND B'S BRIDGES
+toast_90=Settings for the OPS, TOS, TMP and NX-01 Bridge screens
+toast_91=THE HELM FROM THE ENTERPRISE-B
+toast_92=OPEN OR DOWNLOAD MY NEW APP
+
+#Live wallpapers
+lwp_none=NONE
+lwp_-1=OMEGA
+lwp_0=ALERT
+lwp_1=STARBASE
+lwp_2=SONAR
+lwp_3=SCIENCE S.
+lwp_4=FWD NAV SCAN
+lwp_5=AFM NAV SCAN
+lwp_6=PTOE
+lwp_7=AFM PTOE
+lwp_8=DATABASE
+lwp_9=WARP CORE
+lwp_10=NUMBER ONE
+lwp_11=MSD
+lwp_12=ANALYSIS
+lwp_13=SCAN
+lwp_14=TRANSPORTER
+lwp_15=WARP CORE 2
+lwp_16=SHUTTLES
+lwp_17=ENVIRON
+lwp_18=STARFIELD
+lwp_19=BORG 1
+lwp_20=SCIENCE S2.
+lwp_21=CLOCK
+lwp_22=CONN
+lwp_23=CYLON
+lwp_24=SHATTER G.
+lwp_25=SOLAR
+lwp_26=VEHICLE S.
+lwp_27=VOYAGER
+lwp_28=OPS
+lwp_29=NUMBER TWO
+lwp_30=ROMULAN
+lwp_31=KLINGON
+lwp_32=DEEP SPACE 9
+lwp_33=TOS BRIDGE
+lwp_34=NX01 BRIDGE
+lwp_35=TACTICAL 2
+lwp_36=TRANSPORTER 2
+lwp_37=CORRIDOR
+lwp_38=Q NET
+lwp_39=SHELIAK
+lwp_40=CARDASSIAN
+lwp_41=WARP FIELD
+lwp_42=ENT-E
+lwp_43=DNA
+lwp_44=UFP LOGO
+lwp_45=TCARS
+lwp_46=BORG 2
+lwp_47=FERENGI
+lwp_48=ENT-B BRIDGE
+lwp_49=ENT-B HELM
+lwp_sub=TACTICAL 2 (NEM):1,TACTICAL 2 (TOS):2,DNA (VOY):1,DNA (E-TNG):2,DNA (NX-01):3,DNA (3D):4,DNA (L-TNG):5,OPS:1,OPS:2
+
+#widget types
+widget_unknown=UNKNOWN
+widget_blank=BLANK
+widget_0=STARDATE
+widget_1=DOOR PNL
+widget_2=POWER
+widget_3=CLOCK
+widget_4=CALENDAR
+widget_5=EVENTS
+widget_6=TEXT
+widget_7=1DAY WEATHER
+widget_8=5DAY WEATHER
+widget_9=GRFX WEATHER
+widget_10=PANEL CLOCK
+widget_11=ROMULAN CLOCK
+widget_12=KLINGON CLOCK
+widget_13=MUSIC
+widget_14=REMINDERS
+widget_15=GOOGLE NOW
+widget_16=SANCTUARY
+widget_17=ALARMS
+widget_18=PHOTOS
+widget_19=OPERATIONS
+widget_20=MONDRIAN
+widget_21=ITINERARY
+
+#empty sections
+set-4=SCAN AN NFC TAG TO ADD IT
+set-18=SET YOUR SMS QUICK REPLIES
+set-32=REMINDERS FOR THE WIDGET
+set-36=THE LEFT BUTTON TOGGLES AUTO UPDATING, THE RIGHT TOGGLES AUTO INSTALL OF NEW APKS
+set-38=CLICK OK WITHIN THE POPUP DIALOG TO ADD THE DIRECTORY YOU CLICKED
+
+#nardi noise nnaker settings
+set-3=AN INTERNET CONNECTION IS REQUIRED TO DOWNLOAD THE AUDIO FILES
+set-3.0=DURATION
+sed-3.0=HOW LONG TO PLAY SOUND FOR
+set-3.1=SCREEN
+sed-3.1=SELECT WHICH SCREEN TO SHOW
+set-3.2=KEEP SCREEN ON
+sed-3.2=KEEP THE SCREEN ON THE ENTIRE TIME
+set-3.3=KEEP SCREEN BRIGHT
+sed-3.3=IF THE SCREEN IS KEPT ON, SET IT TO BRIGHT OR ALLOW IT TO DIM
+set-3.4=SOUND ERA
+sed-3.4=SHOW SOUNDS FROM WHICH ERA
+set-3.5=SOUND FILE
+sed-3.5=PLAY THIS SOUND FILE
+
+#Dr. Pulaski settings
+set-6.0=VIRUS LEVEL
+sed-6.0=HOW MANY VIRII TO HAVE ON-SCREEN
+set-6.1=DIFFICULTY
+sed-6.1=HOW FAST WILL THE VITAMIN FALL
+set-6.2=MOTION SENSING
+sed-6.2=ALLOW YOUR DEVICE'S ACCELEROMETER TO CONTROL THE GAME
+set-6.3=START GAME
+set-6.4=RESUME GAME
+drp_clear=LEVEL CLEAR
+drp_speed=SPEED
+drp_virus=VIRUS
+drp_highest=HIGHEST SCORE!
+drp_highscore=HIGH-SCORE: [0]
+drp_red=RED
+drp_blue=BLUE
+drp_yellow=YELLOW
+drp_green=BORG
+drp_win=YOU WIN! CLICK TO START NEXT LEVEL
+drp_lose=GAME OVER! CLICK TO TRY AGAIN
+drp_total=TOTAL
+drp_diff0=LOW
+drp_diff1=MEDIUM
+drp_diff2=HIGH
+drp_diff3=EXTREME
+
+#Bridge settings
+set-7.0=CARDASSIAN KEY TONES
+sed-7.0=THIS WILL MUTE OR CHANGE THE RANDOM BEEPS IN GNDN\OPERATIONS CENTER
+set-7.1=SHOW BRIDGE SUB-PAGES
+sed-7.1=SHOW EACH BRIDGE PAGE ON THE MODE SELECT SCREEN INSTEAD OF RANDOMIZING THEM
+set-7.2=BRIDGE PAGES
+sed-7.2=HOW MANY TOS/TMP/NX-01 BRIDGE PANELS TO SHOW
+sed-7.345=WHICH SUB-PAGE TO USE AS THE LIVE WALLPAPER WHEN 'BRIDGE PAGES' IS SET TO 1
+
+getvalue
+set-10.0=FPS
+sed-10.0=SET DESIRED REFRESH RATE (PER SECOND)
+set-10.1=SCREEN
+sed-10.1=SELECT WHICH SCREEN TO SHOW
+set-10.2=ALERT STATUS
+sed-10.2=SET ALERT CONDITION STATUS"
+set-10.3=SELECT MSD
+sed-10.3=SELECT AN MSD TO USE FOR THE MSD SCREEN
+set-10.4=DOWNLOAD MSD
+sed-10.4=IT'S RECOMMENDED THAT YOU CONNECT TO WIFI
+set-10.5=TOP OVERSCAN
+sed-10.5=ADD SOME PIXELS TO THE TOP EDGE
+set-10.6=PORTRAIT BOTTOM OVERSCAN
+sed-10.6=ADD SOME PIXELS TO THE BOTTOM EDGE IN PORTRAIT MODE
+set-10.7=LANDSCAPE BOTTOM OVERSCAN
+sed-10.7=ADD SOME PIXELS TO THE BOTTOM EDGE IN LANDSCAPE MODE
+set-10.8=USE NATIVE SIZE
+sed-10.8=THE IMAGE WONT BE SCALED ANY LARGER THAN THE ORIGINAL DIMENSIONS
+set-10.9=OPEN SELECTOR
+sed-10.9=OPEN THE ANDROID LIVE WALLPAPER SELECTOR
+set-10.10=PREVIEW
+sed-10.10=PREVIEW SELECTED SCREEN
+set-10.11=FORCED SCROLLING
+sed-10.11=EMULATE HORIZONTAL SCROLLING
+set-10.12=USE MAX FPS IN PREVIEW MODE
+sed-10.12=IGNORE THE FPS SETTING WHEN PREVIEWING A LWP
+set-10.13=DARKEN THE SCREEN
+sed-10.13=DARKENS THE IMAGE FOR USE IN THE LAUNCHER
+
+#calculator
+set-11.0=ANGLE MODE
+set-11.1=VARIABLE TYPE
+set-11.2=VARIABLE NAME
+set-11.3=INSERT VARIABLE
+set-11.4=EDIT VARIABLES
+set-11.5=RETURN TO SUB
+sed-11.5=GNDN
+set-11.6=RETURN TO SUB
+set-11.7a=EQUATION
+set-11.8a=ADD PARAMETER
+set-11.7b=IS A CONSTANT
+set-11.8b=ADD VALUE
+
+#variable editor
+set-13.0=MODE
+set-13.1=VARIABLE TYPE
+set-13.2=VARIABLE NAME
+set-13.3=SAVE VARIABLE
+set-13.4=DELETE VARIABLE
+
+#parameter editor wizard
+set-14.0=NAME
+set-14.1=PARAMETER TYPE
+set-14.2=DEFAULT VALUE
+set-14.3=SAVE PARAMETER
+set-14.4=DELETE PARAMETER
+
+#raw sensor data settings
+set-15.0=SENSOR
+set-15.1=X
+set-15.2=Y
+set-15.3=Z
+set-15.4=UNITS
+set-15.5=AZIMUTH
+set-15.6=ALTITUDE
+set-15.7=MAGNITUDE
+
+#Communicator not installed
+set-16=THE LCARS DIALER HAS NOT BEEN INSTALLED. PLEASE SELECT A DOWNLOAD SOURCE. THIS WILL NOT WORK ON THE BLACKBERRY PLAYBOOK
+set-16.0=GOOGLE PLAY
+sed-16.0=DOWNLOAD FROM GOOGLE PLAY MARKETPLACE
+set-16.1=[sec_71]
+sed-16.1=DOWNLOAD WITHIN THIS APP
+
+#Communicator settings
+set-17=SETTINGS FOR THE COMMUNICATOR
+set-17b=WARNING: LOLLIPOP BLOCKS THE ABILITY TO ANSWER CALLS
+set-17.0=YOUR NAME
+sed-17.0=EDIT YOUR NAME
+set-17.1=ANSWER CALLS
+sed-17.1=ALLOW THE COMMUNICATOR TO ANSWER CALLS
+set-17.2=SPEAK NAME
+sed-17.2=USE TTS ENGINE TO SPEAK THE CALLER'S NAME
+set-17.3=BLOCK UNKNOWN CALLERS
+sed-17.3=BLOCK CALLERS THAT AREN'T IN YOUR CONTACT LIST
+set-17.4=BLOCK CALLERS OUTSIDE OF
+sed-17.4=BLOCK CALLERS THAT AREN'T IN YOUR COUNTRY
+set-17.5=PURGE MAIL BOXES
+sed-17.5=EMPTY YOUR INBOX/OUTBOX
+set-17.6=ALTERNATIVE ANSWER METHOD
+sed-17.6=SOME DEVICES (HTC IN PARTICULAR) WON'T LET ME ANSWER CALLS NORMALLY
+set-17.7=SCREEN ORIENTATION
+sed-17.7=AUTOMATIC LETS ANDROID/TILT SENSOR HANDLE THE ORIENTATION
+set-17.8=FORWARD PEBBLE ALERTS
+sed-17.8=SEND PEBBLE ALERTS FROM A DEVICE WITHOUT A PEBBLE, TO ONE WITH A PEBBLE
+set-17.9=IGNORE UNKNOWN CALLERS
+sed-17.9=DON'T USE THE DIALER FOR UNKNOWN CALLERS, SINCE I CAN'T GET CALLER ID DATA FOR THEM
+
+#EMAIL settings
+set-19=EMAIL SETTINGS
+set-19.0=SMTP SERVER
+sed-19.0=JUST TYPE GMAIL TO USE GMAIL'S SETTINGS
+set-19.1=SMTP PORT
+sed-19.1=465 IS THE DEFAULT PORT
+set-19.2=POP3 SERVER
+sed-19.2=POP3 MUST BE ENABLED IN GMAIL FIRST
+set-19.3=POP3 PORT
+sed-19.3=995 IS THE DEFAULT PORT
+set-19.4=USERNAME
+sed-19.4=YOU DON'T NEED TO TYPE @GMAIL.COM
+set-19.5=PASSWORD
+sed-19.5=YOU MAY NEED TO SET UP AN APPLICATION-SPECIFIC PASSWORD
+set-19.6=USE SSL
+sed-19.6=ENABLE SECURE SOCKET LAYER
+set-19.7=YOUR EMAIL ADDRESS
+sed-19.7=NOT NEEDED FOR GMAIL.COM ADDRESSES
+set-19.8=FORWARD MISSED CALLS
+sed-19.8=EMAIL MISSED CALL NOTIFICATIONS TO YOURSELF
+set-19.9=FORWARD TEXT MESSAGES
+sed-19.9=EMAIL TEXT MESSAGES TO YOURSELF
+set-19.10=MINUTES BETWEEN UPDATES
+sed-19.10=HOW LONG BEFORE EMAIL IS CHECKED/SENT
+set-19.11=DOWNLOAD MESSAGES
+sed-19.11=HOW MANY EMAILS TO DOWNLOAD
+
+#Daydream settings
+set-20=DAY DREAM/LOCK SCREEN SETTINGS
+set-20.0=SCREENS
+sed-20.0=SELECT WHICH SCREEN TO SHOW
+set-20.1=SHOW OVER LOCKSCREEN
+sed-20.1=SIMULATE DAY DREAM MODE ON ANDROID VERSIONS BELOW 4.2
+set-20.2=SHOW MEDIA CONTROLS
+sed-20.2=ADD MEDIA PLAYBACK CONTROLS
+set-20.3=ONLY WHEN CHARGING
+sed-20.3=ONLY SHOW THE LOCKSCREEN WHEN YOUR DEVICE IS PLUGGED IN
+set-20.4=FULL BRIGHTNESS
+sed-20.4=USE 100% BRIGHTNESS
+set-20.5=LOCKSCREEN TIMEOUT
+sed-20.5=TIME (SECONDS) TILL THE SCREEN TURNS OFF (0=NEVER)
+
+#Security settings
+set-23=SECURITY SETTINGS
+set-23.0=PASSWORD
+sed-23.0=SET YOUR PASSWORD USING SPEECH RECOGNITION
+set-23.1=SECURE PERSONAL LOG
+sed-23.1=ADD PASSWORD PROTECTION TO FNCT\PERSONAL LOG
+set-23.2=AUTO-DESTRUCT PASSWORD
+sed-23.2=ERASE THE AUTO-DESTRUCT PASSWORD
+
+#Widgets settings
+set-24=CLICK REFRESH WHEN YOU'RE DONE
+set-24.0=WIDGET ID
+sed-24.0=SELECT WHICH WIDGET TO EDIT
+set-24.1=WIDGET TYPE
+sed-24.1=WHAT TYPE OF WIDGET WILL THIS BE?
+set-24.2=TRANSLUCENCY
+sed-24.2=HOW TRANSPARENT DO YOU WANT IT?%N%255=OPAQUE, 0=INVISIBLE
+set-24.3=RESOLUTION
+sed-24.3=RESIZE THE WIDGET'S INTERNAL RESOLUTION
+set-24.4=UPDATE DELAY
+sed-24.4=HOW LONG BETWEEN UPDATES (IN MINUTES)
+set-24.5=UPDATE MODE
+sed-24.5=LETS YOU LIMIT THE UPDATE FREQUENCY
+set-24.6=USE FEDERATION HOLIDAYS
+sed-24.6=ALLOW ME TO ADD EVENTS
+set-24.7=LOCK STARDATE FORMAT
+sed-24.7=PREVENT WIDGET-CLICKS FROM CHANGING THE STARDATE MODE
+set-24.8=YOUR MEDIA PLAYER
+sed-24.8=SET A SPECIFIC MEDIA PLAYER TO CONTROL
+widgmode0=TIME ONLY
+widgmode1=SCREEN ON
+widgmode2=LCARS LWP
+widgtoast=I RECOMMEND YOU SET 'UPDATE MODE' TO 'LCARS LWP' AND KEEP THE RESOLUTION SMALL!
+
+#size settings
+set-25=CLICK THE BACK BUTTON WHEN YOU'RE DONE%N%[set0.1]: [0] - [set0.4]: [1] - [set0.5]: [2]%
+set-25.0=INCREASE LCARS SIZE
+set-25.1=INCREASE FONT SIZE
+set-25.2=INCREASE SCALE FACTOR
+set-25.3=DECREASE SCALE FACTOR
+set-25.4=DECREASE FONT SIZE
+set-25.5=DECREASE LCARS SIZE
+set-25.6=SELECT A LANGUAGE:
+
+#klingon translator settings
+set-26=GSF4:tlhIngan Hol mughwI'
+set-26.0=INPUT TEXT
+sed-26.0=GSF4:bIngDaq ghItlh leghlu' mugh
+set-26.1=INPUT LANGUAGE
+sed-26.1=GSF4:Hal Hol
+set-26.2=OUTPUT LANGUAGE
+sed-26.2=GSF4:ghoch Hol
+set-26ut=U.T.
+
+#weather settings settings
+set-27=NEXT UPDATE: [0] AT [1]
+set-27.0=UNITS
+sed-27.0=WHICH MEASURING SYSTEM TO USE
+set-27.1=PERIOD
+sed-27.1=HOURS BETWEEN UPDATES
+set-27.2=LOCATION
+sed-27.2=MUST BE: CITY, COUNTY/PROVINCE/STATE
+set-27.3=DATA PROVIDER
+sed-27.3=WHERE DOES THE DATA COME FROM?
+set-27rfrsh=REFRESH
+set-27imp=IMPERIAL? What is this, the 19th century?
+
+#debug menu settings
+set-29=DEBUG SETTINGS
+set-29.0=EDUCATIONAL MODE
+sed-29.0=IN HONOR OF THOMAS KALINSKE
+set-29.1=PARTY MODE
+sed-29.1=ACTIVATE DISCO PARTY MODE
+set-29.2=STYLE TOAST
+sed-29.2=FORCE A SPECIFIC SPECIAL TOAST
+set-29.3=ALLOW BACKGROUND SERVICES
+sed-29.3=REQUIRED FOR ALARMS, WIDGETS, THE DIALER AND LAUNCHER
+set-29.4=SHUT DOWN
+sed-29.4=SHUT DOWN YOUR DEVICE (ROOTED DEVICES ONLY)
+set-29.5=OPEN SIZE QUICK MENU
+
+#lightpack settings
+seb-30.0=CONN
+seb-30.1=DISC
+set-30=VISIT LIGHTPACK.TV FOR MORE INFO
+set-30.0=IP ADDRESS:PORT
+sed-30.0=THE IP ADDRESS OF THE LIGHTPACK SERVER
+set-30.1=PASSWORD
+sed-30.1=YOUR LIGHTPACK SERVER'S PASSWORD
+lp_busy=LIGHTPACK IS BUSY
+lp_online=LIGHTPACK IS ONLINE
+lp_denied=ACCESS DENIED TO LIGHTPACK
+lp_wrongpassword=ACCESS DENIED TO LIGHTPACK
+lp_error=LIGHTPACK ERROR OCCURED ([0])
+
+#icon maker settings
+set-31=ROUND ICON MAKER FOR JOSHUA%N%IMAGES PLACED AT ROOT OF THE SD CARD
+set-31.0=CORNER RADIUS
+sed-31.0=HOW ROUND TO MAKE THE CORNERS
+set-31.1=FILE
+sed-31.1=WHAT FILE TO EDIT
+set-31.2=MAKE
+sed-31.2=MAKE THE FILE
+
+#date picker settings
+set-34=DATE PICKER: [0]
+set-34.0=DAY
+sed-34.0=SELECT THE DAY
+set-34.1=MONTH
+sed-34.1=SELECT THE DAY
+set-34.2=YEAR (HUNDREDS)
+sed-34.2=SELECT THE FIRST 2 DIGITS OF THE YEAR
+set-34.3=YEAR (THIRD DIGIT)
+sed-34.3=SELECT THE THIRD DIGIT OF THE YEAR
+set-34.4=YEAR (FOURTH DIGIT)
+sed-34.4=SELECT THE LAST DIGIT OF THE YEAR
+
+#unit conversion
+set-35=CONVERSION VALUES OBTAINED FROM ONLINECONVERSION.COM
+set-35.0=UNIT TYPE
+set-35.1=INPUT VALUE
+set-35.2=INPUT UNIT
+set-35.3=OUTPUT UNIT
+set-35.4=SWITCH UNITS
+
+#GUI settings
+set0=GRAPHICAL SETTINGS
+set0.0=ANTI ALIASING
+sed0.0=DISABLE AA TO INCREASE FRAMERATE
+set0.1=LCARS SIZE
+sed0.1=SOME ELEMENTS MAY NOT ALIGN PROPERLY TILL YOU RESTART
+set0.2=LEVEL OF DETAIL
+sed0.2=DISABLING THIS WILL DECREASE THE FRAMERATE%N%BUT IT WILL LOOK BETTER IN MOTION
+set0.3=FPS COUNTER
+sed0.3=THIS WILL SHOW HOW FAST THE SYSTEM REDRAWS
+set0.4=SCALE FACTOR
+sed0.4=THIS WILL SHRINK/ENLARGE THE UI
+set0.5=TEXT SIZE
+sed0.5=PERCENTAGE BASED ON THE LCARS SIZE
+set0.6=TRANSLATOR
+sed0.6=SHOW ALIEN TEXT IN FEDERATION-STANDARD ENGLISH
+set0.7=LESS RANDOM COLORS
+sed0.7=DRECREASE THE AMOUNT OF COLOR RANDOMIZATION
+set0.8=CAMERA ORIENTATION
+sed0.8=ROTATE THE CAMERA PREVIEW BY X DEGREES
+set0.9=OVERSCAN X
+sed0.9=ADD SOME PIXELS TO THE LEFT AND RIGHT EDGES
+set0.10=OVERSCAN Y
+sed0.10=ADD SOME PIXELS TO THE TOP AND BOTTOM EDGES
+set0.11=SMOOTH SCROLLING
+sed0.11=SCROLL LISTS BY PIXEL INSTEAD OF BY ROW
+set0.12=ALERT STATUS
+sed0.12=SET YOUR PREFERED ALERT CONDITION STATUS
+set0.13=IMMERSIVE MODE
+sed0.13=HIDE THE ACTION BAR (ANDROID 4.4 AND HIGHER)%N%CLOSE THE APP FROM YOUR TASK SWITCHER TO FORCE A RESOLUTION REFRESH
+set0.14=LONGEST AXIS OF YOUR SCREEN
+sed0.14=THE NATIVE RESOLUTION OF THE SCREEN IS NEEDED FOR IMMERSIVE MODE
+set0.15=LANGUAGE
+sed0.15=CHOOSE A LANGUAGE
+
+#SND settings
+set1=AUDIO SETTINGS
+set1.0=HEADSET VOLUME
+sed1.0=SETS THE VOLUME LEVEL WHILE WEARING HEADPHONES
+set1.1=MICROPHONE
+sed1.1=DISABLES USE OF THE MICROPHONE AS A SENSOR
+set1.2=SOUND TEST
+sed1.2=LISTEN TO ANY INCLUDED SOUND FILE
+set1.3=COPY TO RINGTONES
+sed1.3=COPY SELECTED SOUND FILE TO YOUR RINGTONE FOLDER
+set1.4=KEY TONES
+sed1.4=THIS WILL MUTE OR CHANGE THE RANDOM BEEPS
+set1.5=HEADSET BUTTON
+sed1.5=WHAT ACTION IS PERFORMED WHEN THE HEADSET BUTTON IS PRESSED
+set1.6=ALLOW OFFLINE V.REC
+sed1.6=ENABLE IF YOU DOWNLOADED THE OFFLINE ENGLISH VOICE RECOGNITION LIBRARY
+set1.7=BLUETOOTH PRIMER DELAY
+sed1.7=PLAY A HUM FOR X MILLISECONDS BEFORE ANY SOUND OVER BLUETOOTH TO PRIME THE SPEAKER
+
+#BEHAVIOR settings
+set2=BEHAVIORAL SETTINGS
+set2.0=ALLOW BACK TO QUIT
+sed2.0=PRESS BACK TO EXIT AT THE SELECTION SCREEN
+set2.1=SCREENSHOTS
+sed2.1=THIS WILL DISABLE THE SCREENSHOTS
+set2.2=INTRO SCREEN AT START UP
+sed2.2=WHICH THE INTRO WILL PLAY WHEN YOU START THIS APP 
+set2.3=HARDWARE KEYBOARD
+sed2.3=DISABLE THE VIRTUAL KEYBOARD
+set2.4=RUMBLE
+sed2.4=SET THE MINIMUM RUMBLE TIME/STRENGTH
+set2.5=WARP RUMBLE
+sed2.5=ALLOW RUMBLE IN WARP CORE STATUS
+set2.6=INPUT METHOD
+sed2.6=BRING UP THE INPUT METHOD SELECTOR
+set2.7=USE ROOT OF SD
+sed2.7=USE SD CARD\LCARS TO STORE DATA
+set2.8=SHOW BUTTON MENU
+sed2.8=SHOW MORE OPTIONS WHEN YOU PRESS MENU
+set2.9=SEARCH PROVIDER
+sed2.9=SET WHICH SITE TO USE FOR THE MEMORY-ALPHA BROWSER
+set2.10=ALLOW NOTIFICATION
+sed2.10=LET ME SET UP A PERMANENT NOTIFICATION
+set2.11=NOTIFICATION WIDGET
+sed2.11=DISPLAY A WIDGET IN THE EXPANDING NOTIFICATION
+set2.12=SEND PEBBLE ALERTS
+sed2.12=USE THE PEBBLE WATCH
+set2.13=SCREEN ORIENTATION
+sed2.13=LET ANDROID, THIS APP, OR YOU DECIDE WHICH ORIENTATION TO USE
+set2.14=DATE FORMAT
+sed2.14=WHICH ORDER THE DAYS, MONTHS, YEARS WILL APPEAR IN
+
+#MISC settings
+set3=PROGRAMMED BY TECHNI MYOKO%N%NOT ASSOCIATED WITH CBS/PARAMOUNT PICTURES
+set3.0=ABOUT
+sed3.0=SHOW THE ABOUT PAGE
+set3.1=HELP
+sed3.1=SHOW THE HELP PAGE
+set3.2=CHANGE LOG
+sed3.2=SHOW THE CHANGE LOG
+set3.3=YOUR ID
+set3.4=APRIL FOOLS MODE
+sed3.4=TOGGLE APRIL FOOLS MODE
+set3.5=DEBUG MODE
+sed3.5=TOGGLE DEBUG MODE
+
+#sidebars
+side_sett0=GUI
+side_sett1=SND
+side_sett2=ACT
+side_sett3=MISC
+side_dial0=PHN
+side_dial1=SMS
+side_dial2=MAIL
+side_timr0=BLAY
+side_timr1=UNBL
+side_edit0=CNCL
+side_edit1=SAVE
+side_edit2=DEL
+side_rmnd0=ADD
+side_rmnd1=CLR
+
+#button menu
+btn_menu=MENU
+
+#sizes
+size0=HALF
+size1=NORMAL
+size2=ONE•FIVE
+size3=DOUBLE
+size4=TWO•FIVE
+size5=TRIPLE
+size6=THREE•FIVE
+size7=QUADRUPLE
+size8=FOUR•FIVE
+size9=QUINTUPLE
+
+#Q quotes
+q_count=20
+q_0=ATE ANY GOOD BOOKS LATELY?
+q_1=Simple. Change the gravitational constant of the universe.
+q_2=Please don't feel compelled now to tell me the story of The Boy Who Cried 'Worf'
+q_3=But as a human, I would have died of boredom.
+q_4=I'm extraordinarily selfish. But it has served me so well in the past
+q_5=You only dislike me. There are others in the cosmos who truly despise me.
+q_6=Picard thinks I can't cut it on his starship. I can do anything his little-trained minions can do.
+q_7=I'm not good in groups. It's difficult to work in a group when you're omnipotent.
+q_8=Oh, you're so stolid! You weren't like that before the beard.
+q_9=I can't disappear - any more than you could win a beauty contest.
+q_10=Your bedside manner's admirable, Doctor. I'm sure your patients recover quickly, just to get away from you!
+q_11=I know human beings. They're all sopping over with compassion and forgiveness. They can't wait to absolve... almost any offense. It's an inherent weakness of the breed
+q_12=But if it means anything to you - you're a better human than I.
+q_13=MINE'S BIGGER!
+q_14=You obtuse piece of flotsam! You're to be denied *existence*. Humanity's fate has been sealed. You will be destroyed.
+q_15=The anomaly, my ship, my crew; I suppose you're worried about your fish, too.
+q_16=But then again, all good things must come to an end.
+q_17=With unlimited power comes responsibility.
+q_18=DON'T - PROVOKE - THE BORG!
+q_19=Say, is this a ship of the Valkyries? Or have you Human women finally done away with your men altogether?
+q_20=You hit me! Picard never hit me.
+
+#Educational mode
+sec_1001=PSIONICS
+sec_1002=RADIONCS
+sec_1003=METAPHASIC
+
+#dates
+datemode_0=D/M/Y
+datemode_1=M/D/Y
+datemode_2=Y/M/D
+date_date=DATE
+date_allday=ALL DAY
+date_daysfrom=[0] DAYS FROM NOW
+date_past=THE PAST
+date_now=NOW
+date_today=TODAY
+date_yesterday=YESTERDAY
+date_tomorrow=TOMORROW
+date_short=SU,MO,TU,WE,TH,FR,SA
+date_sunday=SUNDAY
+date_monday=MONDAY
+date_tuesday=TUESDAY
+date_wednesday=WEDNESDAY
+date_thursday=THURSDAY
+date_friday=FRIDAY
+date_saturday=SATURDAY
+date_am=A.M.
+date_pm=P.M.
+date_noon=NOON
+date_midnight=MIDNIGHT
+date_week=WEEK
+date_day=DAY
+date_hour=HOUR
+date_minute=MINUTE
+date_second=SECOND
+date_submin=<1 MIN
+date_sec=SEC
+date_min=MIN
+date_hrs=HRS
+date_days=DAYS
+date_wks=WKS
+date_mths=MTHS
+daye_yrs=YRS
+date_time=TIME
+bd='s birthday
+date_1=JANUARY
+date_1_1=New Year's Day
+date_1_2=Isaac Asimov[bd]
+date_1_7=Gene L. Coon[bd]
+date_1_8=Stephen Hawking[bd]
+date_1_20=DeForest Kelley[bd]
+date_2=FEBRUARY
+date_2_2=Brent Spiner[bd]
+date_2_8=Ethan Phillips[bd]
+date_2_16=LeVar Burton[bd]
+date_2_22=Jeri Ryan[bd]
+date_2_23=Majel Barrett[bd]
+date_2_26=Chase Masterson[bd]
+date_3=MARCH
+date_3_2=Gates McFadden[bd]
+date_3_3=James Doohan[bd]
+date_3_5=Dean Stockwell's & Jolene Blalock[bd]
+date_3_11=Anton Yelchin[bd]
+date_3_19=Connor Trinneer[bd]
+date_3_20=John de Lancie[bd]
+date_3_22=William Shatner's & Michael Westmore[bd]
+date_3_26=Leonard Nimoy[bd]
+date_3_28=Doug Drexler[bd]
+date_3_29=Marina Sirtis[bd]
+date_4=APRIL
+date_4_1=April Fool's Day & Grace Lee Whitney[bd]
+date_4_5=First Contact Day
+date_4_9=John Eaves[bd]
+date_4_17=Programmer's Day
+date_4_19=Herman Zimmerman[bd]
+date_4_20=George Takei[bd]
+date_4_22=Ancestor's Day
+date_4_29=Kate Mulgrew[bd]
+date_5=MAY
+date_5_5=Marc Alaimo[bd]
+date_5_20=John Billingsley[bd]
+date_5_30=Michael Piller's & Colm Meaney[bd]
+date_6=JUNE
+date_6_1=Rene Auberjonois[bd]
+date_6_2=Zachary Quinto's & Anthony Montgomery[bd]
+date_6_22=Tim Russ[bd]
+date_6_29=Franz Joseph[bd]
+date_6_30=Jeri Taylor[bd]
+date_7=JULY
+date_7_1=Dominic Keating[bd]
+date_7_6=Rick Sternbach[bd]
+date_7_9=Linda Park[bd]
+date_7_13=Patrick Stewart[bd]
+date_7_26=Nana Visitor[bd]
+date_7_29=Wil Wheaton[bd]
+date_8=AUGUST
+date_8_6=Michael Okuda[bd]
+date_8_7=Cirroc Lofton[bd]
+date_8_12=Walter 'Matt' Jefferies[bd]
+date_8_14=Brannon Braga[bd]
+date_8_17=Harve Bennett[bd]
+date_8_19=Gene Roddenberry's, Diana Muldaur's, Jonathan Frakes[bd]
+date_8_24=Jennifer Lien[bd]
+date_8_26=Chris Pine[bd]
+date_9=SEPTEMBER
+date_9_9=Jeffrey Combs[bd]
+date_9_11=Roxann Dawson[bd]
+date_9_14=Walter Koenig[bd]
+date_9_27=Denise Okuda[bd]
+date_10=OCTOBER
+date_10_2=Avery Brooks[bd]
+date_10_9=Scott Bakula[bd]
+date_10_23=Ira Steven Behr's & Michael Westmore, Jr.[bd]
+date_10_27=Robert Picardo[bd]
+date_10_31=Halloween
+date_11=NOVEMBER
+date_11_5=Armin Shimerman[bd]
+date_11_9=Robert Duncan McNeill[bd]
+date_11_13=Whoopi Goldberg[bd]
+date_11_19=Robert Beltran's & Terry Farrell[bd]
+date_11_21=Alexander Siddig[bd]
+date_11_24=Dwight Schultz's & Denise Crosby[bd]
+date_11_25=Ricardo Montalban[bd]
+date_12=DECEMBER
+date_12_9=Michael Dorn[bd]
+date_12_15=Garrett Wang[bd]
+date_12_20=Nicole de Boer[bd]
+date_12_25=Christmas & Rick Berman[bd]
+date_12_28=Nichelle Nichols[bd]
+date_12_31=New Year's Eve
+
+#notification
+noti_batt=AUX. POWER: [0]% [1]
+noti_ac=(CHARGING)
+noti_belay_timer=BELAY TIMER
+noti_belay_alarm=BELAY ALARM
+noti_unbelay_alarm=UNBELAY ALARM
+noti_noservices=SERVICES ARE DISABLED!
+noti_nextalarm=NEXT ALARM: [0]
+
+#alarms
+alarm_new=NEW ALARM
+alarm_text=TIME TO WAKE UP
+alarm_play_sound=PLAY SOUND
+alarm_play_sound_desc=WHICH SOUND DO YOU WANT TO PLAY?
+alarm_sound_name=SOUND NAME
+alarm_action=ACTION
+alarm_time=ALARM TIME (MIN)
+alarm_time_desc=SET TO 0 TO STAY ON TILL YOU STOP IT
+alarm_title=DESCRIPTION
+alarm_snooze=SNOOZE TIME (MIN)
+alarm_snooze_desc=SET TO 0 TO DISABLE SNOOZE
+alarm_actions_0=NORMAL
+alarm_actions_1=DND OFF
+alarm_actions_2=DND ON
+alarm_actions_3=DEADMAN
+alarm_actions_4=ALERT
+alarm_no_repeat=NOT REPEATING
+alarm_everyday=EVERYDAY
+alarm_online=LCARS ONLINE
+alarm_wake=WAKE
+alarm_snooze=SNOOZE
+alarm_none=NO ALARM SET
+alarm_belay=BELAY
+alarm_unbelay=UNBELAY
+alarm_belayed=BELAYED UNTIL
+alarm_future=FUTURE ALARMS
+
+#universal
+invalid=NOT VALID
+app=LCARS UI
+vrec=V.REC
+enabled=ENABLED
+disabled=DISABLED
+y=Y
+n=N
+yes=YES
+no=NO
+true=TRUE
+false=FALSE
+sovereign_class=SOVEREIGN
+galaxy_class=GALAXY
+sd_card_error=SD CARD NOT FOUND
+northamerica=NORTH AMERICA
+not_installed=NOT INSTALLED
+loading=LOADING...
+infinite=INFINITE
+plural=S
+delimiter=,
+last_delimiter=AND
+offline=YOU ARE OFFLINE
+prev=PREV
+next=NEXT
+enter=ENTER
+first=FIRST
+stardate=STARDATE
+exit=EXIT
+back=BACK
+welcome=WELCOME TO THE LCARS DATABASE
+alert=ALERT
+random=RANDOM
+help=HELP
+cancel=CANCEL
+printscreen=PRT SCR
+open=OPEN
+amazon_firetv=The rewind button will set focus to the previous list, the forward button will set focus to the next one
+is_ouya=The L1 button will set focus to the previous list, the R1 button will set focus to the next one
+connection_pass=CONNECTED TO SERVER
+connection_fail=CONNECTION FAILED OR DISCONNECTED
+connection_umr=UMR CLIENT HAS CONNECTED
+no_tts=TEXT TO SPEECH IS NOT AVAILABLE ON THE OUYA
+smallscreen=SMALL SCREEN
+usesmallscreen=Use small screen mode?
+
+#widgets
+opret0="OPERATION [0]"
+opret1=COMMAND BRIEFING
+opret2=RETRIEVE
+opret3=STARFLEET COMMAND
+opret4=FLEET OPERATIONS CENTER [0] SOL SECTOR
+opret5=MISSION PARAMETERS
+opret6=INTELLIGENCE DATABASE 287-784
+op_name=NAME
+op_place=PLACE
+itin_com=COMMANDING OFFICER
+itin_btm=DAILY PERSONAL SCHEDULE
+helmb=1701-B
+helmb0=OMYAH
+helmb1=MOJA
+helmb2=SAFARI
+helmb3=MOLLY
+helmb4=LAURA
+helmbtn0=SYS STATUS
+helmbtn1=DATA ENTER
+helmbtn2=CONDITION
+
+#TMP Warp field
+port=PORT
+starboard=STBD
+warpnacelle=[0] WARP NACELLE
+
+#directory names
+DIRECTORY_PICTURES=Pictures
+DIRECTORY_MUSIC=Music
+DIRECTORY_RINGTONES=Ringtones
+DIRECTORY_ALARMS=Alarms
+DIRECTORY_DCIM=DCIM
+DIRECTORY_DOWNLOADS=Download
+DIRECTORY_MOVIES=Movies
+DIRECTORY_NOTIFICATIONS=Notifications
+DIRECTORY_PODCASTS=Podcasts
+
+#web browser
+web_help=Click this on the main screen to get the manual for a selected section
+web_default_title=PRESS SEARCH BUTTON OR TOP LEFT LCARS TO BEGIN
+404_title=ERROR
+404_text0=WEB PAGE NOT AVAILABLE
+404_text1=THE WEB PAGE AT [URL] MIGHT BE TEMPORARILY DOWN OR IT MAY HAVE BEEN MOVED PERMANENTLY TO A NEW WEB ADDRESS. 
+404_text2=HERE ARE SOME SUGGESTIONS
+404_text3=CHECK TO MAKE SURE YOUR DEVICE HAS A SIGNAL AND DATA CONNECTION
+404_text4=RELOAD THIS WEB PAGE LATER
+404_text5=VIEW A CACHED COPY OF THE WEB PAGE FROM GOOGLE
+web_clear_hist=CLEAR HISTORY
+web_welcome=ANYTHING WITH A PERIOD IN IT WILL BE TREATED AS A URL
+web_side0=READ
+web_side1=BACK
+web_side2=HISTORY
+web_side2_sm=HIST
+web_search=SEARCH
+web_search_sm=SRCH
+web_busy=COMMS SYSTEM IS BUSY
+
+#settings
+set_font_factor=FONT SIZE SET TO [0]%
+set_lcars_size=LCARS SIZE SET TO [0]
+set_size_back=PRESS BACK TO SAVE, OR MENU TO ACCESS MORE SETTINGS
+
+#apk downloader
+apk_install=INSTALL
+apk_update=UPDATE
+apk_up2date=UP TO DATE
+apk_notanapk=NOT AN APK
+
+#filesize
+shortsize_b=[0] B
+shortsize_kb=[0] KB
+shortsize_mb=[0] MB
+shortsize_gb=[0] GB
+shortsize_tb=[0] TB
+
+#pebble alerts
+pebble_alert=LCARS ALARM
+red_alert=RED ALERT
+yellow_alert=YELLOW ALERT
+green_alert=CONDITION GREEN
+charging_alert=BATTERY HAS RISEN ABOVE [0]%
+charged_alert=AUX. POWER IS NOW CHARGED. PLEASE UNPLUG YOUR PADD
+percent_alert=BATTERY LEVEL HAS DROPPED BELOW [0]%
+
+#IP address
+ip_save=SAVE IP
+ip_delete=DELETE IP
+
+#keyboard - WARNING: MUST BE UNIQUE
+kb_disabled=THE HARDWARE KEYBOARD SETTING IS ENABLED, AS SUCH, THE SOFT KEYBOARD IS DISABLED
+kb_pressback=PRESS THE BACK BUTTON TO TOGGLE CAPS LOCK
+kb_space=SPACE
+kb_shift=SHIFT
+kb_ok=OK
+kb_delete=DEL
+kb_cancel=CNCL
+kb_backspace=BKSP
+kb_search=SEARCH
+kb_caps=CAPS
+kb_copy=COPY
+kb_insert=INS
+kb_cut=CUT
+kb_paste=PST
+kb_clr=CLR
+kb_capslock=CAPS LOCK IS [0]
+
+#klingon section. Languages must be in the same order
+klingon_dbds=death by dirty socks
+klingon_inprogress=Translation already in progress
+klingon_notspecified=Destination language not specified
+klingon_noinput=No input text given
+klingon_toolong=Input text is longer than [0] characters
+klingon_thesame=Input and output languages are the same
+klingon_klingon=One of the languages must be Klingon
+klingon_languages=Auto-Detect,Arabic,Bulgarian,Catalan,Chinese Simplified,Chinese Traditional,Czech,Danish,Dutch,English,Estonian,Finnish,French,German,Greek,Haitian Creole,Hebrew,Hindi,Hmong Daw,Hungarian,Indonesian,Italian,Japanese,Klingon,Klingon (Kronos),Korean,Latvian,Lithuanian,Malay,Norwegian,Persian,Polish,Portuguese,Romanian,Russian,Slovak,Slovenian,Spanish,Swedish,Thai,Turkish,Ukrainian,Urdu,Vietnamese
+
+#calculator
+calc_warning=DUE TO THE NATURE OF THIS SCREEN, IT MAY BE UNSTABLE. PLEASE CLICK CONTINUE IF AN ERROR BOX POPS UP AND SEND ME THE FORMULA YOU USED
+calc_stackoverflow=Stack overflow limit exceeded
+calc_dividebyzero=Division by zero
+calc_constant=Unable to change constant ([0])
+calc_customnotfound=Custom type not found
+calc_typenotfound=Data type not found
+calc_varnotfound=Variable '[0]' not found
+calc_notype=No variable type was given
+calc_noequation=No equation was given
+calc_varnotfound=Variable not found
+calc_novalues=No values were entered
+calc_notvalidtype=Not a valid data type
+calc_min_params=Expected [0] parameters, got [1]
+calc_range_params=Expected [0] to [1] parameters, got [2]
+calc_typemismatch=[0] is not a [1]
+calc_alreadydefined=Variable already defined
+calc_noname=No name was entered
+calc_dupeparameter=Parameter names: '[0]' were used multiple times
+calc_nonoptional=A non-optional parameter ([0]) followed an optional one
+calc_outofbounds=Array index [0] out of 
+calc_illbeback=No string terminator
+calc_noop=Missing operand
+calc_percent=misformed percent
+calc_welcome=Welcome to the equation evaluator. Type an equation then click OK to get the answer
+calc_unknown=Topic Unknown. Click HELP from the main menu for more information
+calc_maxwarp=Maximum warp exceeded
+calc_maxwarp_more=Maximum warp for era [0] is [1]
+calc_maxera=Invalid era given
+calc_maxera_more=Era must be 0, 1 or 2
+calc_asc=Returns the ASCII value of the first letter in <text>
+calc_chr=Returns the ASCII character of <value>
+calc_instr=Returns the position of <txttofind> within <text> starting at <start>. -1=not found
+calc_instrrev=Returns the last position of <txttofind> within <text>. -1=not found
+calc_left=Returns the leftmost <digits> of <text>
+calc_right=Returns the rightmost <digits> of <text>
+calc_mid=Returns the <digits> of <text> at <start>
+calc_trim=Returns <text> with spaces removed from the beginning and end
+calc_replace=Replace <txttofind> in <text> with <replacewith>
+calc_replace(replacewith)=What text would you like it replaced with?
+calc_warp=Returns the speed of light of a given warp factor
+calc_warp(warpfactor)=How fast are you going? (warp speed)
+calc_warp(era)=0=TOS, 1=TNG, 2=All Good Things
+calc_answer=Returns the answer from the ANS screen matching the number you entered. Enter 0 for the last answer
+calc_answer(index)=Which answer index do you want? There are currently: [0]
+calc_copy=Copies <text> to Android's clipboard
+calc_paste=Returns the contents of Android's clipboard
+calc_help=Get more information on a topic
+calc_start=0 is the first digit"
+calc_digits=How many digits would you like?
+calc_text=Remember: Text must be encapsulated inside 'quotes'
+calc_txttofind=What text would you like to look for?
+calc_radian=Enter your degrees (in [0])
+calc_clear=CLEAR
+calc_formula_for_y=FORMULA FOR Y
+calc_inc=INCREMENT
+calc_start_x=START X
+calc_end_x=FINISH X
+calc_shape=SHAPE
+calc_shapes0=SQUARE
+calc_shapes1=CIRCLE
+calc_view=VIEW
+calc_side0=NUM
+calc_side1=TXT
+calc_side2=VAR
+calc_side3=ANS
+calc_side4=GRF
+calc_startend_nan=Start or Finish was not a number
+calc_x_not_found=X not found
+calc_nan=Equation did not result in a number
+calc_nodata=NO DATA SET
+calc_isnan=[0] IS NOT A VALID NUMBER
+calc_bothbases=Both Bases must be between 2 and 36 (inclusive)
+calc_invalidchar=Input value contains an invalid character
+calc_toobig=Input value contains a digit larger than the base ([0])
+
+#alert status condition
+alert_destruct=AUTO-DESTRUCT
+alert_red=CONDITION: RED
+alert_yellow=CONDITION: YELLOW
+alert_blue=CONDITION: BLUE
+alert_green=CONDITION: GREEN
+alert_alert=ALERT
+
+#music
+music_u_track=UNKNOWN TRACK
+music_u_album=UNKNOWN ALBUM
+music_u_artist=UNKNOWN ARTIST
+music_playpause=PLAY\PAUSE
+music_playpause_d=PLAY-PAUSE
+
+#Periodic table of elements
+#format: ptoe_MOLECULENAME (in lowercase), and ptoe_ATOMICSYMBOL (in lowercase)
+ptoe_afm=THE TABLE OF ELEMENTS 99823
+ptoe_nonmetals=NON-METALS
+ptoe_alkalimetals=ALKALI METALS
+ptoe_terranmetals=ALKALINE TERRAN METALS
+ptoe_transitionmetals=TRANSITION METALS
+ptoe_poormetals=POOR METALS
+ptoe_halogens=HALOGENS
+ptoe_inert=NOBLE GAS / INERT ELEMENTS
+ptoe_lanthanide=LANTHANIDE SERIES
+ptoe_investigating=CURRENTLY UNDER INVESTIGATION
+ptoe_24th=24TH CENTURY ELEMENTS
+ptoe_text0=THIS TABLE LISTS THOSE ELEMENTS UTILIZED BY THE
+ptoe_text1=STANDARDIZED TEXTS OF THE STARFLEET EDUCATIONAL
+ptoe_text2=TEXTS. OTHER CHARTS ARE AVAILABLE BY ACCESSING
+ptoe_text3=MATERIAL UNDER THE HEADING 'NEAT STUFF'.
+ptoe_hypersonic=HYPERSONIC SERIES
+ptoe_transonic=TRANSONIC SERIES
+ptoe_gamma=GAMMA SERIES
+ptoe_omega=OMEGA SERIES
+ptoe_world=WORLD SERIES
+ptoe_mega=MEGA SERIES
+ptoe_molecule=MOLECULE
+ptoe_symbol=ATOMIC SYMBOL
+ptoe_number=ATOMIC NUMBER
+ptoe_weight=ATOMIC WEIGHT
+ptoe_electron=ELECTRON CONFIGURATION
+
+#frequency
+freq_artifact=FREQUENCY ARTIFACT
+
+#error messages
+no_smallscreen=LARGE SCREEN DEVICES CANNOT RUN IN SMALLSCREEN MODE
+no_game=THIS GAME IS NOT READY YET
+no_answer=HTC DEVICES WILL NOT ALLOW ME TO ANSWER CALLS
+no_scroll=SAMSUNG DEVICES TEND TO REQUIRE FORCED SCROLLING MODE ENABLED
+no_mic=MICROPHONE IS NOT ENABLED OR AVAILABLE
+no_warp=THE WARP CORE CANNOT RUN WHILE MUTED
+no_gps=GPS IS NOT ENABLED
+no_help=NO HELP AVAILABLE FOR THIS SECTION
+no_section=NO SECTION WAS SELECTED
+no_connection=YOU ARE CURRENTLY OFFLINE
+no_wifi=WIFI IS NOT ENABLED
+no_msd=INVALID OR NO MSD SELECTED
+no_wallpaper=NO WALLPAPER SELECTED%N%USE SYS\LIVE WALLPAPER TO SET ONE
+no_wall_loaded=NO WALLPAPER LOADED
+no_axis=NO AXIS SELECTED%N%CLICK MENU TO BEGIN
+toomany_axis=YOU HAVE TOO MANY AXIS SELECTED
+no_sd=WARNING: YOUR SD CARD/EXTERNAL MEMORY CANNOT BE ACCESSED. SYSTEM STABILITY WILL BE COMPRIMISED!
+warp_download=DOWNLOAD THE WARPCORELO OR WARPCOREHI MSD FIRST
+resolution_too_low=RESOLUTION TOO LOW FOR THIS SCREEN
+access_denied=ACCESS DENIED
+lsod_0=THE LCARS COMPUTER NETWORK
+lsod_1=A FATAL EXCEPTION O.E. HAS OCCURED AT 0028:C0011E36 IN SYSREG 47 ALPHA (SYSREG.L47)
+lsod_2=THE CURRENT APPLICATION WILL BE TERMINATED
+lsod_3= • PRESS ANY KEY TO TERMINATE THE APPLICATION.
+lsod_4= • PRESS MODE SELECT AND ABORT TO PURGE THE DATA AND REBOOT THE TERMINAL.
+lsod_5=YOU WILL LOSE ANY UNSAVED INFORMATION IN ALL APPLICATIONS.
+lsod_6=PRESS BACK KEY TO CONTINUE
+tos_button=ENTER GNDN\TOS BRIDGE TO%N%DOWNLOAD THE NECESSARY FILE
+bg_services=WARNING: BACKGROUND SERVICES ARE DISABLED
+hosting_already=YOU ARE ALREADY HOSTING ON [0]
+connected_already=YOU ARE ALREADY CONNECTED
+disconnected=DISCONNECTED
+connecting=CONNECTING
+init_gps=INITIALIZING GPS
+error=ERROR
+no_read=PLEASE FINISH READING
+small_screen=Small screen mode activated
+immersive_refresh=IMMERSIVE MODE SHOULD QUIT THE NEXT TIME THE ORIENTATION CHANGES OR ACTIVITY IS SHOWN
+immersive_height=YOU NEED TO SET YOUR SCREEN HEIGHT FOR IMMERSIVE MODE TO WORK
+
+#Password
+password=PASSWORD
+pass_toomany=TOO MANY FAILED ATTEMPTS
+pass_failed=PASSWORD ATTEMPT FAILED
+pass_prompt=ENTER YOUR PASSWORD
+invalid_password=INVALID PASSWORD
+password_required=A PASSWORD IS REQUIRED
+pass_required=PLEASE SET UP YOUR PASSWORD IN SYS\SETTINGS
+pass_erased=PASSWORD ERASED
+pass_offline=YOU MUST BE ONLINE TO SET YOUR PASSWORD
+
+#shuttle bay
+bay_stat0=AVAILABLE
+bay_stat1=OVERHAUL
+bay_stat2=REFIT
+bay_stat3=TESTING
+bay_stat4=STANDBY
+bay_stat5=OFF SHIP
+bay_loc0=ON APPROACH
+bay_loc1=LEAVING
+bay_loc2=BAY [0]
+bay_loc3=HANGAR [0]
+bay_loc4=MAIN BAY
+bay_loc5=STARBASE [0]
+bay_loc6=DEEP SPACE [0]
+bay_loc7=AWAY MISSION
+bay_type0=POD
+bay_type1=SHUTTLE
+
+#number 1 console
+no1_0=MAIN SHUTTLEBAY
+no1_1=MAIN PHASER BANK/UPPER
+no1_2=MAIN BRIDGE
+no1_3=READY ROOM%N%OBSERVATION LOUNGE%N%BATTLE BRIDGE%N%V.I.P. QUARTERS
+no1_4=MAIN SENSOR RING/UPPER
+no1_5=LONG RANGE SENSORS%N%AUXILARY SENSORS%N%TACTICAL SENSORS%N%SECONDARY SENSORS%N%MAIN SENSOR RING/LOWER
+no1_6=SAUCER IMPULSE ENGINE
+no1_7=PHASER BANK
+no1_8=SHUTTLEBAY 2
+no1_9=MAIN IMPULSE ENGINE
+no1_10=HEAT DISSIPATION VENTS
+no1_11=AFT PHASER BANK
+no1_12=AFT TORPEDO LAUNCHER
+no1_13=AFT PHASER BANK
+no1_14=HYDROGEN DUMP VENTS
+no1_15=WARP DRIVE NACELLE
+no1_16=WARP ENGINE FIELD GRILLE
+no1_17=BUSSARD COLLECTOR
+no1_18=SHUTTLEBAY 3
+no1_19=MAIN BRIDGE
+no1_20=MAIN PHASER BANK/UPPER
+no1_21=MAIN PHASER BANK/LOWER
+no1_22=CAPTAIN'S YACHT
+no1_23=FORWARD TORPEDO LAUNCHER
+no1_24=NAVIGATIONAL DEFLECTOR
+no1_25=LOWER PHASER BANK
+no1_26=BUSSARD COLLECTOR
+no1_27=WARP ENGINE FIELD GRILLE
+no1_28=WARP DRIVE NACELLE
+no1_29=AFT TORPEDO LAUNCHER
+no1_30=PHASER BANK
+
+#SOHO/metaphasic shield
+soho_attempting=ATTEMPTING TO ACCESS [0]
+soho_offline=UNABLE TO ACCESS [0]%N%SENSORS ARE OFFLINE
+soho_compression=SUBSPACE COMPRESSION FACTOR 0[0]
+soho_axis=~[0] AXIS
+soho_engaged=METAPHASIC FIELD ENGAGED
+soho_distortion=FIELD DISTORTION = 45[0] MILLICOCHRANES
+
+#TWOK minigame
+twok_win=WON
+twok_lose=LOST
+twok_filemissing=YOU [0] BUT THE IMAGE FILE IS MISSING
+twok_firecontrol=FIRE CONTROL
+twok_photon=PHOTON
+twok_torpedos=TORPEDOS
+twok_phasers=PHASERS
+twok_continuity=CONTINUITY
+twok_launcher=LAUNCHER
+twok_thruster=THRUSTER
+twok_ignition=IGNITION
+
+#chronowerx (werx_seti2 and 3 must have the same number of words)
+werx_password=PLEASE ENTER PASSWORD:
+werx_menu0=FILE
+werx_menu1=EDIT
+werx_menu2=INPUT
+werx_menu3=END
+werx_err0=FATAL SYSTEM ERROR
+werx_err1=ERROR # 0047
+werx_err2=CONTACT CHRONOWERX TECHNICAL SUPPORT 1-800-ON-HOLD
+werx_seti0=TRIANGULATING EMISSION SOURCE
+werx_seti1=EMISSION SOURCE LOCATED
+werx_seti2=GET DATA FILE HB-88/SETI STANDARD
+werx_seti3=ROUTE: DISH A-1
+werx_seti4=TRANSMITTING STANDARD
+werx_seti5=SETI GREETING
+werx_launch=LAUNCH ACCESS
+werx_orbital=ORBITAL SPECTRUM ANALYSIS
+werx_timeship=FEDERATION TIMESHIP MODEL HB-88
+werx_suborbital=SUBORBITAL TRACKING
+werx_hangar=TIMESHIP HANGAR BAY/LAUNCH PLATFORM
+werx_assistant=OFFICE ASSISTANT
+werx_clippy=AGENT: CLP
+werx_spec=SPEC. APPS
+werx_nowavailable=NOW AVAILABLE
+werx_status=chronometric systems status
+
+#HTTP jobs
+umrserver_success=SAVED TO [0]
+umrserver_failure=DOWNLOAD FAILED. RETRY?
+webpage_failure=WEB PAGE NOT AVAILABLE
+msds_downloading=DOWNLOADING: [0]
+msds_success=DONE DOWNLOADING LIST
+msds_failure=ERROR: [0] WAS NOT DOWNLOADED!
+file_success=[0] WAS DOWNLOADED
+lwp_success=LIVE WALLPAPER: [0]
+
+#Voice recognition
+vr_prompt=HELLO COMPUTER...
+vr_password=ENTER YOUR PASSWORD
+vr_notavailable=VOICE RECOGNITION IS NOT AVAILABLE
+vr_internet_required=INTERNET CONNECTION REQUIRED
+vr_restate_command=PLEASE RESTATE THE COMMAND
+vr_download_all=DOWNLOADING ALL V.REC FILES
+vr_alarm_insufficient=INSUFFICIENT DATA PROVIDED TO MAKE A NEW ALARM
+
+#Ultra mobile remote
+umr_downloading=DOWNLOADING...
+umr_disabled=UMR MODE DISABLED
+umr_download=DOWNLOAD SERVER
+umr_server=ACT AS UMR SERVER
+umr0=ACTIONS
+umr1=TASKS
+umr2=KEYBOARD
+umr3=[sec_83]
+umr4=MOUSE
+umr5=XPERIA PLAY MODE
+umr6=VOICE
+umr7=DISCONNECT
+umr_left=LEFT
+umr_middle=MIDDLE
+umr_right=RIGHT
+umr_exit=PRESS THE SEARCH BUTTON TO EXIT
+
+#April Fools mode
+ssid_31=SECTION 31 LISTENING POST
+bssid_31=DONTLOOK
+contact_sig=CANDIDATE SIGNAL DETECTED
+troopers=WOULD YOU LIKE TO KNOW MORE?
+freedom_wars=Excessive Clicking:Excessive Clicking of a list item is considered a contravention of the State Directive on Annoyance Reduction.
+
+#MSD downloader
+msd_downloading=DOWNLOADING MSD LIST
+msd_redownload=REDOWNLOAD
+msd_outwards=OUTWARDS
+msd_inwards=INWARDS
+msd_left=LEFT
+msd_right=RIGHT
+
+#Tactical
+tactical0=LISTEN
+tactical1=CONNECT
+tactical2=DEPLOY
+
+#Okudagram
+okuda_custom=CUSTOM [0]
+okuda_delete=DELETE CUSTOM [0]
+okuda_none=~[NONE]
+okuda_toggle=TOGGLE UI
+okuda_tools0=TOOL
+okuda_tools1=MODE
+okuda_tools2=COLOR
+okuda_tools3=SIDES
+okuda_tools4=FILE
+okuda_tools5=ERA
+okuda_tool0=GET
+okuda_tool1=SET
+okuda_tool2=AUTO
+okuda_mode0=BLANK
+okuda_mode1=CIRCLE
+okuda_mode2=SQUARE
+okuda_mode3=SLICE
+okuda_mode4=LINES
+okuda_mode5=BAR
+okuda_top=TOP
+okuda_bottom=BOTTOM
+okuda_bar=BAR
+okuda_length=LENGTH
+okuda_width=WIDTH
+okuda_blink=BLINK
+okuda_diameter=DIAMETER
+okuda_select=SELECT A MODE FIRST
+okuda_file0=CLEAR
+okuda_file1=SAVE
+okuda_file2=RANDOMIZE
+okuda_file3=PRESET 1
+okuda_file4=PRESET 2
+okuda_file5=PRESET 3
+okuda_file6=PRESET 4
+okuda_file7=PRESET 5
+okuda_file8=PRESET 6
+okuda_era0=ENT-A
+okuda_era1=ENT-J
+
+#sensor animation
+sens0=RND
+sens1=ACC
+sens2=MAG
+sens3=ORI
+sens4=GYR
+sens5=MIC
+sens6=LIT
+sens7=PRS
+sens8=TMP
+sens9=PRX
+
+#Starbase clock
+clock_refresh=RFRSH
+clock_clear=CLS
+clock_paths=PATHS
+
+#Misc
+photic=PHOTIC SONAR COM
+preview=PREVIEW
+tricorder0=SCAN ANALYSIS
+tricorder1=AUXILIARY SYSTEMS MONITOR 117
+on=ON
+off=OFF
+quick_reply=QUICK-REPLY
+sms_reply=CREATE YOUR SMS QUICK-REPLY
+sms_edit=EDIT YOUR SMS QUICK-REPLY
+vehicle_status=VEHICLE STATUS
+plasma_con=PLASMA CONSTRICTION MAP [0]
+milli=[0] MILLISECONDS
+comm_net=SUBSPACE COMM NET 3069
+
+#Gplus
+gplus_none=NO POSTS HAVE BEEN FOUND!
+gplus_list=LIST
+
+#Personal log
+log_recording=RECORDING
+log_record=RECORD
+log_record_sm=REC
+log_pressstop=PRESS STOP TO STOP RECORDING
+log_stop=STOP
+log_rename=RENAME LOG
+log_rename_prompt=PLEASE ENTER THE NEW FILE NAME
+log_delete=DELETE LOG
+log_none=NO SELECTED LOG
+log_playing=[0] IS PLAYING
+log_side0=PLAY
+log_side1=EDIT
+log_side2=DEL
+log_side3=ALL
+confirm_delete=ARE YOU SURE YOU WANT TO DELETE [0]?
+log_failed=RENAME FAILED
+log_subs=SUBTITLES SAVED WITH THE AUDIO
+log_date=[0] WAS RECORDED AT: [1]
+
+#auto-destruct timer
+auto_delete=DELETE
+auto_start=START
+auto_reset=RESET
+auto_save=SAVE
+auto_sto=STO DATE
+auto_code=SET CODE
+auto_none=YOU HAVE NOT SET A TIMER
+auto_already=THIS TIMER WAS SAVED ALREADY
+auto_saved=[0] WAS SAVED
+auto_deleted=[0] WAS DELETED
+auto_notfound=[0] WAS NOT FOUND
+auto_afm=MALFUNCTION, TRY AGAIN
+auto_destruct=AUTO DESTRUCT SYSTEM
+auto_side0=EDIT
+auto_side1=SETS
+auto_noti=TIMER: [0]
+auto_deadman=SOUND MUST BE ENABLED FOR DEADMAN ALARMS
+
+#NFC
+nfc_none=THIS NFC TAG HAS NO ACTION ASSIGNED
+nfc_action=NFC ACTION
+nfc_vrec=TYPE THE V.REC ACTION FOR THIS NFC TAG
+
+#Mode select
+mode0=ALL
+mode1=SNSR
+mode2=FNCT
+mode3=GAME
+mode4=GNDN
+mode5=SYS
+
+#Widgets
+widg_resolution=YOUR LAUNCHER WILL HANDLE THE RESOLUTION FOR THIS WIDGET
+widg_none=NO WIDGETS ARE IN USE
+widg_setup=WIDGET ID: [0]%N%NEEDS SETTING UP%N%[1]: [2]
+widg_refreshing=REFRESHING WIDGETS
+weat_refreshing=REFRESHING WEATHER
+weat_wait=YOU MUST WAIT AT LEAST 10 MINUTES BETWEEN UPDATES
+weat_title=CITY
+weat_prompt=ENTER THE CITY, A COMMA, PROVINCE/STATE/COUNTY
+photo_widget=PHOTO WIDGET
+photo_remove=REMOVE
+photo_none=NO IMAGES FOUND
+select_dir=SELECT A DIRECTORY
+widg_aux=AUX. POWER
+widg_google=GOOGLE
+widg_google_afm=BORG
+
+#Reminders
+reminder_prompt=WHAT DO YOU WANT TO BE REMINDED OF?
+reminders=16
+rem0=Feed spot
+rem1=Go to the holodeck
+rem2=Go to Risa
+rem3=Pet the tribble
+rem4=Take a sonic shower
+rem5=Clean my uniform
+rem6=Live long and prosper
+rem7=Do not provoke the borg!
+rem8=Replicate a burnt roast
+rem9=Get coffee from that nebula
+rem10=Calibrate heisenberg compensator
+rem11=Scan for life forms
+rem12=Sneak onto the bridge
+rem13=Visit the arboretum
+rem14=Narfle the Garthok
+rem15=Shut up Wesley
+rem_none0=USE THE 'ADD REMINDER'
+rem_none1=V.REC COMMAND OR THE
+rem_none2=FNCT\REMINDERS SECTION
+rem_none3=TO ADD SOME REMINDERS
+
+#APK downloader
+apk_updating=AUTO APK UPDATING
+apk_installing=AUTO NEW APK INSTALLING
+apk_download=DOWNLOAD
+
+#Sensors
+snsr_scan=SENSOR SCAN
+snsr0=ALL
+snsr1=MULT
+snsr2=MENU
+snsr3=DATA
+snsr_ana=SENSOR ANALYSIS
+snsr_freq=E-BAND PARAMETRIC SIGNAL ANALYSIS
+snsr_meta=METAPHASIC SHIELD PROGRAM 01
+snsr_mic=MICROPHONE
+snsr_acc=ACCELEROMETER
+snsr_mag=MAGNETOMETER
+snsr_com=COMPASS
+snsr_gyr=GYROSCOPE
+snsr_lit=LIGHT
+snsr_prs=PRESSURE
+snsr_bat=BATTERY
+snsr_tem=TEMPERATURE
+snsr_prx=PROXIMITY
+snsr_mir=MEDICAL INSURANCE REMAINING
+snsr_tmf=TOTAL MAGNETIC FIELD
+
+#UT
+bing0=DISCLAIMER 1: BING'S KLINGON TRANSLATOR MAY ONLY BE A TEMPORARY PROMOTION TO GO ALONG WITH THE MOVIE
+bing1=DISCLAIMER 2: BING ONLY ALLOWS A LIMITED NUMBER OF TRANSLATIONS PER MONTH
+bing_title=TRANS
+bing_prompt=ENTER THE TEXT TO BE TRANSLATED
+
+#Memory Allocation
+mem_retry=RETRY
+mem_undo=UNDO
+mem_chain=CHAIN MADE: [0]
+mem_combo=COMBO MADE: [0]
+
+#Screenshot
+prtscr_screenshot=SCREENSHOT
+prtscr_failure=SCREENSHOT FAILED
+prtscr_success=SAVED SCREENSHOT
+prtscr_webview=WEB BROWSER
+
+#Starship name
+name_creative=BE A LITTLE MORE CREATIVE. THAT NAME IS IN USE
+name_nouss=DON'T INCLUDE U.S.S.
+name_title=STARSHIP NAME
+name_prompt=NAME YOUR STARSHIP
+name_scout=SCOUT
+name_light=LIGHT CRUISER
+name_heavy=HEAVY CRUISER
+name_dread=DREADNOUGHT
+name_none=AND IT HASN'T BEEN NAMED YET
+name_unnamed=UNNAMED SHIP
+name_text=YOUR ID IS [0]
+name_class=[0] CLASS, U.S.S. [1]
+name_yours=YOUR NAME
+name_yours_prompt=PLEASE ENTER YOUR NAME
+name_uss=U.S.S.
+
+#Setting Strings
+strings_0_0=GREEN
+strings_0_1=RED
+strings_0_2=BLUE
+
+#Settings
+keytone=TONE [0]
+passive=PASSIVE
+aggressive=AGGRESSIVE
+new=NEW
+all=ALL
+purge0=INBOX
+purge1=OUTBOX
+purge2=BOTH
+orient-1=ANDROID
+orient0=AUTOMATIC
+orient1=LANDSCAPE
+orient2=PORTRAIT
+alarm_type0=NORMAL
+alarm_type1=DND OFF
+alarm_type2=DND ON
+alarm_type3=DEADMAN
+alarm_type4=ALERT
+alarm_title=DESCRIPTION
+alarm_prompt=NAME YOUR ALARM:
+lpack_title=LIGHTPACK
+ignore=IGNORE
+set_ringtone=SET RINGTONE
+set_alarm=SET ALARM
+set_notif=NOTIFICATION
+rename=RENAME
+magic=CHECK SITE
+downloading_already=YOU ARE NOT ONLINE OR ARE DOWNLOADING ALREADY
+delete_failed=UNABLE TO DELETE
+last_failed=UNABLE TO DELETE LAST VALUE
+longest_axis=[0] NEEDS TO BE THE LONGEST AXIS OF YOUR SCREEN
+
+#units
+units_m_s2=M/S^2
+units_tesla=MICROTESLAS
+units_degrees=DEGREES
+units_radians_s=RADIANS/S
+units_si_lux=SI LUX
+
+#MicroScope 
+micro_mag=MAG FACTOR
+micro_mic=MICRONS
+
+#panel
+panel_titles=14
+panel_title0=RESTRICTED ACCESS
+panel_title1=EPS POWER SYSTEM #
+panel_title2=ACCESS PANEL #
+panel_title3=AUXILIARY SYSTEMS #
+panel_title4=ENGINEERING ACCESS ONLY
+panel_title5=ENVIRONMENTAL SYSTEM #
+panel_title6=OPTICAL DATA NET SERVICE ACCESS
+panel_title7=LCARS TERMINAL # ALPHA CHARLIE-1
+panel_title8=Danger: Antimatter containment module
+panel_title9=Caution: Variable gravity area
+panel_title10=Emergency systems access #
+panel_title11=LIBRARY computer access and retrieval sys
+panel_title12=Caution: Cryogenic fluid hazard
+panel_title13=TERTIARY SUBSYSTEM #
+panel_texts=17
+panel_text0=Refer servicing to qualified starfleet technicians. No user servicable parts|inside. Remember, no matter where you go, there you are."
+panel_text1=Caution: Objects in mirror are closer than they appear to be. A stitch in|time saves nine. In space, no one can hear you scream"
+panel_text2=Three hundred thousand kilometers per second: it's not just a good|idea, it's the law. Your actual mileage may vary of course."
+panel_text3=Don't tug on Superman's cape. Don't spit into the wind. Don't pull the|mask off the Lone Ranger, and you don't mess around with Jim."
+panel_text4=Just sit right back and you'll hear a tale of a fateful trip, that|started from this tropic port, aboard this tiny ship"
+panel_text5=Daisy, daisy, give me your answer too. I'm half crazy over the love of you|Gort, Klaatu barada nikto"
+panel_text6=Your mission, should you choose to accept it, is to go boldly where no one|has gone before. this label will self-destruct in 5 seconds. good luck, jim."
+panel_text7=caution: operating protocol # requires full redundancy for|all primary lcars network data feed and isolinear components."
+panel_text8=this unit is for emergency use only during alert conditions or|other criticality-1 situations. upon use, notify duty officer."
+panel_text9=shifts in local gravity field may occur at any time without warnings.|please be sure that all unused equipment is secured at all times."
+panel_text10=magnetic containment field must remain on-power at all times.|Failure to do so will result in immediate destruction of the starship."
+panel_text11=caution: mission-critical optical data network elements must remain|online unless disconnect is authorized by bridge ops manager."
+panel_text12=extremely cold temperatures inside. proper safety equipment must|be used and safety protocols observed when opening this unit."
+panel_text13=LIBRARY computer access and retrieval system|Press any key to continue - which one's the any key?"
+panel_text14=caution: operating protocol # requires full redundancy for|all emergency systems. We'll never be caught, we're on a mission from god."
+panel_text15=Safety protocols must be observed prior to opening this compartment. In|the event of a water landing, this unit may be used as a flotation device"
+panel_text16=This defensive weapons system locker contains two charged phaser devices|follow all standard power charging and safety procesures per SFRA #"
+
+#3D board games
+3d_set1=GAME
+3d_set2=MODE
+3d_sed2=2D (CLASSIC) OR 3D
+3d_set3=LAYOUT
+3d_sed3=CHOOSE THE SIZE OF THE BOARD
+3d_set4=MINES
+3d_sed4=HOW MANY MINES TO SPAWN
+3d_play1=PLAYER 1
+3d_play2=PLAYER 2
+3d_mine=DOES NOT APPLY TO MINESWEEPER
+3d_start=START NEW GAME
+3d_resume=RESUME GAME
+3d_flags=FLAGS
+3d_local=YOUR TURN
+3d_remote=WAITING...
+3d_ai=WORKING...
+3d_tie=TIE GAME!
+3d_white_won=WHITE HAS WON
+3d_white_turn=WHITE'S TURN
+3d_black_won=BLACK HAS WON
+3d_black_turn=BLACK'S TURN
+
+#ringtone
+ring_unable=UNABLE TO FIND RINGTONE DIRECTORY
+ring_exists=[0] EXISTS ALREADY
+ring_copied=[0] COPIED TO RINGTONES
+ring_failed=[0] COULD NOT BE COPIED TO [1]
+ring_denied=UNABLE TO COMPLY
+ring_nosound=NO SOUND SELECTED
+ring_wasset=[0] SOUND HAS BEEN SET
+ring_tone=RINGTONE
+ring_alarm=ALARM
+ring_noti=NOTIFICATION
+
+#alarms
+alarm_action0=DELETED
+alarm_action1=ENABLED
+alarm_action2=DISABLED
+alarm_action3=TOGGLED
+alarm_none=YOU HAVE NO ALARMS
+alarm_noneset=YOU HAVE NO ALARMS SET TO GO OFF
+alarm_allwere=ALL ALARMS WERE [0]
+alarm_onewas=ALARM [0] WAS [1]
+alarm_multi=ALARMS [0] WERE [1]
+alarm_lastdel=AND
+alarm_next=YOUR NEXT ALARM IS SET FOR [0], WHICH IS IN [1]
+alarm_new=NEW ALARM MADE FOR: [0]:[1] [2][4]
+alarm_manydel=,
+
+#ip address
+ip_notsaved=[0] IS NOT A SAVED IP
+ip_notrecognized='[0]' WAS NOT RECOGNIZED
+ip_deleted=IP ADDRESS DELETED
+ip_cantdelete=UNABLE TO DELETE
+ip_saved=IP ADDRESS SAVED
+ip_savedalready=IP ADDRESS SAVED ALREADY
+ip_listening=[0] IS LISTENING ON PORT [1]
+
+#sensors
+sensor0=MICROPHONE
+sensor1=ACCELEROMETER
+sensor2=MAGNETIC
+sensor3=ORIENTATION
+sensor4=GYROSCOPE
+sensor5=LIGHT
+sensor6=PRESSURE
+sensor7=TEMPERATURE
+
+#captains log
+log_behind=Behind the Scenes
+log_tos=The Original Series
+log_tng=The Next Generation
+log_ds9=Deep Space Nine
+log_voy=Voyager
+log_ent=Enterprise
+log_jja=J.J. Abramsverse
+log_std=Discovery
+log_etc=Etcetera
+log_twitter=TWITTER
+log_facebook=FACEBOOK
+
+#white noise maker
+nardi_screen=SCREEN
+nardi_duration=DURATION
+nardi_sound=SOUND FILE
+nardi_one=HAS
+nardi_multi=HAVE
+nardi_missing=[0] [1] NOT BEEN SPECIFIED
+sensor8=PROXIMITY
+
+#unit conversion
+units_nan=INPUT VALUE IS NOT A NUMBER
+units_23=NUMBER SYSTEMS
+units_please=PLEASE ENTER A [0] VALUE
+units_error=ERROR: [0]
+
+#games
+pdp_paused=PAUSED
+pdp_saved=SAVED
+pdp_pause=PAUSE
+pdp_pause_sm=PAUS
+pdp_lost=YOU LOST
+pdp_won=YOU WON
+pdp_score=SCORE
+pdp_lines=LINES
+pdp_moves=REMAINING MOVE[0]
+pdp_diff0=EASY
+pdp_diff1=MEDIUM
+pdp_diff2=HARD
+pdp_mode0=MARATHON
+pdp_mode1=PUZZLE
+pdp_mode2=LINES
+pdp_mode3=TIMED
+pdp_custom=CUSTOM
+pdp_mode=SELECT PLAY MODE
+pdp_garbage=GARBAGE
+pdp_3d=3D MODE
+pdp_level=SELECT LEVEL
+pdp_sublevel=SUB-LEVEL
+pdp_sublevel_d=SELECT SUB-LEVEL
+pdp_lines_d=SELECT LINE COUNT
+pdp_min=MINUTES
+pdp_min_d=SELECT MINUTE COUNT
+pdp_empty=GRID IS EMPTY
+pdp_name=PUZZLE NAME
+pdp_name_d=NAME YOUR PUZZLE
+pdp_new=NEW LEVEL
+pdp_clear=CLEAR
+
+#tribbles
+tri_gameover=GAME OVER
+tri_level=LEVEL
+
+#twok
+twok_difficulty=DIFFICULTY
+twok_imagepack=IMAGE PACK
+twok_whichpack=What quality image pack would you like to download?
+twok_selectdiff=Select your difficulty level
+twok_resume=, or click RSM to resume your game
+twok_you=YOU
+twok_them=ENEMY
+twok_incorrect=INCORRECT: YOU HAVE [0] GUESSES LEFT
+twok_act0=FIRED PHASERS
+twok_act1=FIRED PHOTON TORPEDOS
+twok_act2=EVADED
+twok_phasers_phasers=DRAW: YOUR PHASERS CANCELED EACH OTHER OUT
+twok_phasers_evade=DRAW: YOU MISSED
+twok_phasers_torpedo=WIN: YOU DETONATED THE TORPEDO, DAMAGING THE ENEMY
+twok_torpedo_phasers=LOSE: THE TORPEDO WAS DETONATED, DAMAGING YOU
+twok_torpedo_evade=WIN: THE TORPEDO STILL HIT THEM
+twok_torpedo_torpedo=DRAW: YOUR TORPEDOS CANCELED EACH OTHER OUT
+twok_evade_phasers=DRAW: THEY MISSED YOU
+twok_evade_evade=DRAW: YOU BOTH EVADED
+twok_evade_torpedo=LOSE: THE TORPEDO STILL HIT YOU
+twok_recharging=RECHARGING: YOU MUST EVADE FOR YOUR NEXT TURN
+twok_lose=DEFEAT: KHAN DEFEATED YOU
+twok_win=VICTORY: YOU DEFEATED KHAN
+twok_cheated=VICTORY: BUT YOU 
+twok_mustevade=ERROR: YOU MUST DODGE THIS TURN
+twok_offline=An internet connection is required to download the image pack. This only needs to be done once.
+twok_gameover=GAME OVER: WOULD YOU LIKE TO PLAY A GAME?
+twok_standby=PLEASE WAIT FOR THE FILE TO DOWNLOAD
+twok_turnsleft=TURNS: [0] REMAINING
+
+#card games
+card_whichgame=WHICH CARD GAME TO PLAY
+card_size=CARD SIZE
+card_size_d=CHANGING THE SIZE WILL RESET YOUR GAME!
+card_edge=EDGE COLOR
+card_edge_d=THE COLOR OF THE CARD EDGES
+card_back=CARD BACKING
+card_back_d=WHICH CARD BACK IMAGE TO USE
+card_wind=MULTI WINDOW
+card_wind_d=EXTEND THE PLAYING FIELD TO THE TOP PART OF THE FRAME (WHEN APPLICABLE)
+card_warning=CHANGING ANY OF THESE SETTINGS WILL RESET YOUR GAME!
+
+card_sol_dealx=DEAL X CARDS
+card_sol_dealx_d=HOW MANY CARDS TO DEAL AT A TIME
+card_sol_score=SCORE METHOD
+card_sol_timed=TIMED GAME
+card_sol_timed_d=YOUR SCORE WILL DECREASE AS TIME PASSES BY
+card_heart_until=PLAY UNTIL
+card_heart_until_d=END THE GAME WHEN THE FIRST PLAYER REACHES THIS SCORE
+card_no_options=NO OPTIONS AVAILABLE
+card_color_of_red=THE COLOR OF THE NORMALY-RED SUITES
+card_color_of_black=THE COLOR OF THE NORMALY-BLACK SUITES
+card_fed_klingon=FEDERATION[0]/KLINGON[1] COLOR
+card_rom_borg=ROMULAN[0]/BORG[1] COLOR
+card_you_have=YOU HAVE: $[0]
+card_pot_has=POT: $[0]
+card_bet=BET: $[0] ([1])
+card_bet_increasing=INCREASING
+card_bet_decreasing=DECREASING
+card_sol_dealx=DEAL X CARDS
+card_dealing=DEALING CARDS...
+
+card_hilo_correct=CORRECT
+card_hilo_match=MATCH
+card_hilo_incorrect=INCORRECT
+
+card_blk_score=YOUR HAND: BET: $[1] CASH: $[2]
+
+card_pkr_hand0=Nothing
+card_pkr_hand1=Pair
+card_pkr_hand2=Two Pair
+card_pkr_hand3=Three of a Kind
+card_pkr_hand4=Straight
+card_pkr_hand5=Flush
+card_pkr_hand6=Full House
+card_pkr_hand7=Four of a Kind
+card_pkr_hand8=Straight Flush
+card_pkr_hand9=Royal Flush
+card_pkr_min=Must hold a minimum of 2 cards
+card_pkr_lost=You lost $[0]
+card_pkr_won=You won with a [0] ($[1])
+card_you_got=You got [1] card[2]
+card_pkr_bet=Please place your bet
+
+card_cap_newround=NEW ROUND!
+card_cap_yourturn=ITS YOUR TURN TO LEAD OFF
+card_cap_bum=ENSIGN
+card_cap_vicebum=LIEUTENANT
+card_cap_vicepres=COMMANDER
+card_cap_pres=CAPTAIN
+card_cap_mercy=I took mercy on you%N%You were dealt no cards
+card_cap_notgood=SORRY. THAT CARD ISN'T GOOD ENOUGH
+card_cap_passed=EVERYONE PASSED%N%THIS ROUND IS OVER
+card_cap_ai=AI
+card_cap_shuffled=New deck shuffled
+card_cap_you_los=YOU LOST%N%YOU ARE THE [card_cap_bum]
+card_cap_threw=[0] threw down [1] [2][3]
+card_cap_youput=You put down [0] [1][2]
+card_cap_out=You are out%N%You are the [0]
+card_cap_dealta=YOU WERE DEALT A [1]
+card_cap_gave=[0] GAVE [1] [2] CARD[3]
+card_cap_lead=[0] LEAD OFF WITH [1] [2][3]
+card_cap_passed=[0] PASSED THEIR TURN
+card_cap_isout=[0] IS OUT
+
+card_hrt_yourturn=IT IS YOUR TURN
+card_hrt_give3=You must give away 3 cards%N%RESISTANCE IS FUTILE
+card_hrt_nocards=NO CARDS WERE SELECTED
+card_hrt_mustplay2=YOU MUST PLAY THE 2[0]/[1] CARD
+card_hrt_cantplay=YOU CANNOT PLAY A HEART OR THE Q[0]/[1] CARD YET
+card_hrt_mustplay=YOU MUST PLAY A [0]/[1] CARD
+card_hrt_0=LAST
+card_hrt_1=SECOND
+card_hrt_2=THIRD
+card_hrt_3=FOURTH
+card_hrt_place=YOU CAME IN [0] PLACE
+card_hrt_tie=([1]-WAY TIE)
+card_hrt_nopts=[0] GOT NO POINTS LAST TURN
+card_hrt_somepts=[0] GOT [1] POINT[2]
+card_hrt_26pts=EVERYONE EXCEPT [0] GOT 26 POINTS
