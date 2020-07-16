@@ -13,11 +13,11 @@ Facebook Client Secret: line 276
 Twitter Consumer Key and Secret: line 278
 
 Directories:
-Additional Libraries - All the B4A libraries I used, it'd be a real pain to make you download them yourself. Especially since some don't exist, and I made one specifically for the dialer.
-Cardassian Vector Engine - The editor I made for my vector art format, used first in the Cardassian/DS9 animated bridge screens
-LCARS DIALER
-LCARS for Windows - The original VB6 sourcecode/program
-LCARS UI - 
+Additional Libraries - All the B4A libraries I used, it'd be a real pain to make you download them yourself. Especially since some don't exist, and I made one specifically for the dialer.  
+Cardassian Vector Engine - The editor I made for my vector art format, used first in the Cardassian/DS9 animated bridge screens  
+LCARS DIALER  
+LCARS for Windows - The original VB6 sourcecode/program  
+LCARS UI - The one you're probably looking for  
 Misc tools used - For some screens, I made a program to handle creation of assets/data rapidly. You may need to manually add some modules as they expect them in a certain place on my hard drive. I included these for historical purposes
 
 History:
