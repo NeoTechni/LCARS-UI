@@ -59,8 +59,6 @@ Sub GenerateURL(Destination As String, Format As String, Units As String, Days A
 			If AppID.Length>0 Then tempstr = tempstr & "&APPID=" & AppID
 		Case 1'yahoo
 			tempstr = "http://query.yahooapis.com/v1/public/yql"
-			'Client ID (Consumer Key) = dj0yJmk9Q2dneWY0eE1JSUhaJmQ9WVdrOU5YbHVOM1pPTTJVbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD00Mg--
-			'Client Secret (Consumer Secret) = d0b2a6f3a3b1f1ffbb5135679d0b98edef149322
 			Query = "select * from weather.forecast where woeid in (select woeid from geo.places(1) where text=" & """" & Destination & """" & ")"
 			If Format.Length=0 Then Format = API.IIF( CurrentFormat.Length=0, "json", "xml") 
 			tempstr = tempstr & "?q=" & STR.EncodeUrl(Query, "UTF8").Replace("+", " ") & "&format=" & Format
