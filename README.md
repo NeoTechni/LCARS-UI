@@ -46,10 +46,10 @@ https://play.google.com/store/apps/details?id=com.omnicorp.scifiui&hl=en_CA
 SCI-FI UI - Based on the LCARS UI engine, but built around other franchises like RoboCop, Alien, Terminator, etc
 
 https://play.google.com/store/apps/details?id=com.omnicorp.lcarui.launcher
-STARBASE LAUNCHER - The Star Trek themed launcher I mentioned
+STARBASE LAUNCHER - The launcher I mentioned
 
 https://play.google.com/store/apps/details?id=com.omnicorp.lcar.wear
-SCI-FI watchfaces - A bunch of screens from the LCARS UI ported to Android Wear
+SCI-FI watchfaces - A bunch of screens ported to Android Wear
 
 https://play.google.com/store/apps/details?id=com.omnicorp.lwp.deadspace
 Unitology Hallucination - A Dead Space-themed Live Wallpaper
