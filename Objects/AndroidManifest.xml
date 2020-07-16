@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.omnicorp.lcarui.test"
+	android:versionCode="340"
+	android:versionName="2.3.40"
+	android:installLocation="internalOnly">
+	
+	<uses-sdk android:minSdkVersion="4"/>
+	<supports-screens 
+		android:xlargeScreens="true"
+		android:largeScreens="true" 
+	    android:normalScreens="true" 
+	    android:smallScreens="true" 
+	    android:anyDensity="true"/>
+	<uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+	<uses-feature android:name="android.hardware.location" android:required="false"/>
+	<uses-feature android:name="android.hardware.microphone" android:required="false"/>
+	<uses-feature android:name="android.hardware.camera" android:required="false"/>
+	<uses-feature android:name="android.hardware.location.NETWORK" android:required="false"/>
+	<uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+	<uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+	<uses-sdk android:minSdkVersion="4"/>
+	<supports-screens 
+		android:xlargeScreens="true"
+		android:largeScreens="true" 
+	    android:normalScreens="true" 
+	    android:smallScreens="true" 
+	    android:anyDensity="true"/>
+	<uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+	<uses-feature android:name="android.hardware.location" android:required="false"/>
+	<uses-feature android:name="android.hardware.microphone" android:required="false"/>
+	<uses-feature android:name="android.hardware.camera" android:required="false"/>
+	<uses-feature android:name="android.hardware.location.NETWORK" android:required="false"/>
+	<uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.NFC"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<!-- -->
+	<uses-permission android:name="android.permission.READ_CALENDAR"/>
+	<!-- -->
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+	<uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+	<application
+		android:icon="@drawable/icon"
+		android:label="LCARS"
+		android:theme="@android:style/Theme.NoTitleBar"
+		android:hardwareAccelerated="true">
+		
+		<activity android:name=".main" android:label="LCARS UI">
+		  <intent-filter>
+		    <action android:name="android.intent.action.MAIN"/>
+		    <category android:name="android.intent.category.LAUNCHER"/>
+		    <category android:name="tv.ouya.intent.category.GAME"/>
+		  </intent-filter>
+		</activity>
+		<activity android:name=".main">
+		    <intent-filter>
+		        <action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+		        <category android:name="android.intent.category.DEFAULT"/>
+		    </intent-filter>
+		</activity>
+		<activity android:name=".main">
+		    <intent-filter>
+		        <action android:name="android.intent.action.SET_TIMER"/>
+		        <category android:name="android.intent.category.DEFAULT"/>
+		    </intent-filter>
+		</activity>
+		<activity android:name=".main">
+		    <intent-filter>
+		        <action android:name="android.intent.action.SET_ALARM"/>
+				<action android:name="android.intent.action.SHOW_ALARMS"/>
+				<action android:name="android.intent.action.DISMISS_ALARM"/>
+		        <category android:name="android.intent.category.DEFAULT"/>
+		    </intent-filter>
+		</activity>
+		<application>
+		  <activity android:name="StartRunActivity" android:label="computer">
+		      <intent-filter>
+		          <action android:name="android.intent.action.MAIN" />
+		          <category android:name="android.intent.category.LAUNCHER" />
+		      </intent-filter>
+		  </activity>
+		</application>
+		<service
+		        android:label="LCARS UI LWP" 
+		        android:name="anywheresoftware.b4a.objects.WallpaperInternalService"
+		        android:permission="android.permission.BIND_WALLPAPER">
+		        <intent-filter>
+		            <action android:name="android.service.wallpaper.WallpaperService" />
+		        </intent-filter>
+		        <meta-data android:name="android.service.wallpaper" android:resource="@xml/wallpaper" />
+		</service>
+		<service
+		            android:name="anywheresoftware.b4a.objects.DreamServiceWrapper"
+		            android:exported="true"
+		            android:label="LCARS UI DD">
+		            <intent-filter>
+		                <action android:name="android.service.dreams.DreamService" />
+		                <category android:name="android.intent.category.DEFAULT" />
+		            </intent-filter>
+					<meta-data android:name="android.service.dream" android:resource="@xml/my_dream" />
+		           </service>
+		<meta-data android:name="com.google.android.gms.games.APP_ID" android:value="617483143982" />
+		<activity android:name=".main" android:label="LCARS UI">
+		  <intent-filter>
+		    <action android:name="android.intent.action.MAIN"/>
+		    <category android:name="android.intent.category.LAUNCHER"/>
+		    <category android:name="tv.ouya.intent.category.GAME"/>
+		  </intent-filter>
+		</activity>
+		<application>
+		  <activity android:name="StartRunActivity" android:label="computer">
+		      <intent-filter>
+		          <action android:name="android.intent.action.MAIN" />
+		          <category android:name="android.intent.category.LAUNCHER" />
+		      </intent-filter>
+		  </activity>
+		</application>
+		<service
+		        android:label="LCARS UI LWP" 
+		        android:name="anywheresoftware.b4a.objects.WallpaperInternalService"
+		        android:permission="android.permission.BIND_WALLPAPER">
+		        <intent-filter>
+		            <action android:name="android.service.wallpaper.WallpaperService" />
+		        </intent-filter>
+		        <meta-data android:name="android.service.wallpaper" android:resource="@xml/wallpaper" />
+		</service>
+		<service
+		            android:name="anywheresoftware.b4a.objects.DreamServiceWrapper"
+		            android:exported="true"
+		            android:label="LCARS UI DD">
+		            <intent-filter>
+		                <action android:name="android.service.dreams.DreamService" />
+		                <category android:name="android.intent.category.DEFAULT" />
+		            </intent-filter>
+		           </service>
+		<meta-data android:name="com.google.android.gms.games.APP_ID" android:value="617483143982" />
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".main"
+			android:label="LCARS"
+			android:screenOrientation="unspecified">
+			<intent-filter>
+			   <action android:name="android.intent.action.MAIN" />
+			   <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			
+			<intent-filter>
+			  <action android:name="com.google.android.gms.actions.CREATE_NOTE" />
+			  <category android:name="android.intent.category.DEFAULT" />
+			  <data android:mimeType="*/*" />
+			</intent-filter>
+			<intent-filter>
+			  <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+			  <category android:name="android.intent.category.DEFAULT" />
+			  <data android:mimeType="text/plain" />
+			</intent-filter>
+			<meta-data android:name="com.amazon.input.cursor" android:value="pointer"/>
+			<intent-filter>
+			  <action android:name="com.google.android.gms.actions.CREATE_NOTE" />
+			  <action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+			  <action android:name="android.intent.action.SET_TIMER"/>
+			  <action android:name="android.intent.action.SET_ALARM"/>
+			  <category android:name="android.intent.category.DEFAULT" />
+			  <data android:mimeType="*/*" />
+			</intent-filter>
+			<intent-filter>
+			  <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+			  <category android:name="android.intent.category.DEFAULT" />
+			  <data android:mimeType="text/plain" />
+			</intent-filter>
+		</activity>
+		<service android:name=".wallpaperservice">
+		</service>
+		<receiver android:name=".wallpaperservice$wallpaperservice_BR">
+		</receiver>
+		<service android:name=".stimer">
+		</service>
+		<receiver android:name=".stimer$stimer_BR">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+			<intent-filter>
+			        <action android:name="android.intent.action.SEND" />
+			        <category android:name="com.google.android.voicesearch.SELF_NOTE" />
+			    </intent-filter>
+			<intent-filter>
+					'voice recognition
+			        <action android:name="android.intent.action.SET_ALARM"/>
+					<action android:name="android.intent.action.SET_TIMER" />
+					<action android:name="android.intent.action.SHOW_ALARMS" />
+					<action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+			        <category android:name="android.intent.category.DEFAULT"/>
+			    </intent-filter>
+			<intent-filter>
+					<action android:name="android.intent.action.SEND" />
+			        <category android:name="com.google.android.voicesearch.SELF_NOTE" />
+			    </intent-filter>
+			<intent-filter>
+				'inter-app communications
+			    <action android:name="com.omnicorp.lcarui" />
+					
+				'music players
+				<action android:name="com.android.music.metachanged" />'stock music player
+				<action android:name="com.miui.player.metachanged" />'MIUI music player
+			 	<action android:name="com.htc.music.metachanged" />'HTC music player
+			 	<action android:name="com.nullsoft.winamp.metachanged" />'WinAmp
+			 	<action android:name="com.real.IMP.metachanged" />'MyTouch4G
+				<action android:name="com.amazon.mp3.metachanged" />'Amazon
+			    <action android:name="fm.last.android.metachanged"/>'last.fm
+			    <action android:name="com.sec.android.app.music.metachanged"/>'
+			    <action android:name="com.sonyericsson.music.metachanged"/>'Sony Ericsoon
+			    <action android:name="com.rdio.android.metachanged"/>'rdio
+			    <action android:name="com.samsung.sec.android.MusicPlayer.metachanged"/>'Samsung
+			    <action android:name="com.andrew.apollo.metachanged"/>'
+			</intent-filter>
+			<intent-filter>
+			        <action android:name="android.intent.action.SEND" />
+			        <category android:name="com.google.android.voicesearch.SELF_NOTE" />
+			    </intent-filter>
+			<intent-filter>
+					'voice recognition
+			        <action android:name="android.intent.action.SET_ALARM"/>
+					<action android:name="android.intent.action.SET_TIMER" />
+					<action android:name="android.intent.action.SHOW_ALARMS" />
+					<action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+			        <category android:name="android.intent.category.DEFAULT"/>
+			    </intent-filter>
+			<intent-filter>
+					<action android:name="android.intent.action.SEND" />
+			        <category android:name="com.google.android.voicesearch.SELF_NOTE" />
+			    </intent-filter>
+			<intent-filter>
+				'inter-app communications
+			    <action android:name="com.omnicorp.lcarui" />
+					
+				'music players
+				<action android:name="com.android.music.metachanged" />'stock music player
+				<action android:name="com.miui.player.metachanged" />'MIUI music player
+			 	<action android:name="com.htc.music.metachanged" />'HTC music player
+			 	<action android:name="com.nullsoft.winamp.metachanged" />'WinAmp
+			 	<action android:name="com.real.IMP.metachanged" />'MyTouch4G
+				<action android:name="com.amazon.mp3.metachanged" />'Amazon
+			    <action android:name="fm.last.android.metachanged"/>'last.fm
+			    <action android:name="com.sec.android.app.music.metachanged"/>'
+			    <action android:name="com.sonyericsson.music.metachanged"/>'Sony Ericsoon
+			    <action android:name="com.rdio.android.metachanged"/>'rdio
+			    <action android:name="com.samsung.sec.android.MusicPlayer.metachanged"/>'Samsung
+			    <action android:name="com.andrew.apollo.metachanged"/>'
+			</intent-filter>
+		</receiver>
+		<service android:name=".dreamservice">
+		</service>
+		<receiver android:name=".dreamservice$dreamservice_BR">
+		</receiver>
+		<service android:name=".widgets">
+		</service>
+		<receiver
+			android:name=".widgets$widgets_BR"
+			android:label="LCARS WIDGET">
+			<intent-filter>
+			<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+			android:resource="@xml/widgets_info" />
+			
+		</receiver>
+		<service android:name=".btimer">
+		</service>
+		<receiver android:name=".btimer$btimer_BR">
+		</receiver>
+		<service android:name=".httputils2service">
+		</service>
+		<receiver android:name=".httputils2service$httputils2service_BR">
+		</receiver>
+	</application>
+</manifest>
