@@ -3710,7 +3710,7 @@ End Sub
 
 Sub SetupBing
 	'API.Trace("SetupBing", True)
-	Translator.Initialize(Me, "BING", "NKV1uq4Bxb4T1H0IubabH/jOm02GkD3kaI4gerYXVTM", "LCARS_UI")
+	Translator.Initialize(Me, "BING", "", "LCARS_UI")
 	Translator.MaxChars=100
 	Translator.MustBeKlingon=True
 	Translator.Dest = Translator.KlingonLanguage(False)
